@@ -1,0 +1,807 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Astrology proved harmless, useful, pious. Being a sermon / written by Richard Carpenter.</title>
+            <author>Carpenter, Richard, d. 1670?</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1657</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 116 KB of XML-encoded text transcribed from 26 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2014-11">2014-11 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A80515</idno>
+            <idno type="STC">Wing C619</idno>
+            <idno type="STC">Thomason E899_2</idno>
+            <idno type="STC">ESTC R206740</idno>
+            <idno type="EEBO-CITATION">99865847</idno>
+            <idno type="PROQUEST">99865847</idno>
+            <idno type="VID">118098</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A80515)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 118098)</note>
+            <note>Images scanned from microfilm: (Thomason Tracts ; 135:E899[2])</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Astrology proved harmless, useful, pious. Being a sermon / written by Richard Carpenter.</title>
+                  <author>Carpenter, Richard, d. 1670?</author>
+               </titleStmt>
+               <extent>[10], 40 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by Ja: Cottrel, for John Allen at the Rising Sun, and Joseph Barber at the Lamb in Paul's Church-yard.,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1657.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Annotation on Thomason copy: "January 1st"; the 7 in the imprint date has been crossed out and replaced with a "6".</note>
+                  <note>Reproduction of the original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Bible. --  O.T. --  Genesis I, 14 --  Sermons.</term>
+               <term>Sermons, English --  17th century.</term>
+               <term>Astrology --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2013-04</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2013-04</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2013-07</date>
+            <label>Colm MacCrossan</label>Sampled and proofread</change>
+         <change>
+            <date>2013-07</date>
+            <label>Colm MacCrossan</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2014-03</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:118098:1" rendition="simple:additions"/>
+            <p>ASTROLOGY Proved HARMLESS, USEFUL, PIOUS. Being A SERMON Written by <hi>Richard Carpenter.</hi>
+            </p>
+            <q>
+               <bibl>ROM. 14. 10.</bibl> Why dost thou judge thy brother? <hi>or,</hi> why dost thou ſet at nought thy brother? We ſhall all ſtand before the judgement-ſeat of Christ.</q>
+            <q>
+               <bibl>
+                  <hi>S. Clem.</hi> Ep. 1. ad <hi>Jacob.</hi>
+               </bibl> Sunt Homicidae interfectores Fratrum: &amp; ſunt Homicidae detractores eorum. <hi>There are Homi<g ref="char:EOLhyphen"/>cides, who kill their Brethren: and there are Homi<g ref="char:EOLhyphen"/>cides, who detract from them.</hi>
+               <bibl>It was the common Saying of S. <hi>Peter,</hi> according to <hi>Clemens Ro<g ref="char:EOLhyphen"/>manus,</hi> being the <hi>Clement</hi> here cited.</bibl>
+            </q>
+            <p>
+               <hi>LONDON:</hi> Printed by <hi>Ja: Cottrel,</hi> for <hi>John Allen</hi> at the Riſing Sun, and <hi>Joſeph Barber</hi> at the Lamb in <hi>Paul</hi>'s Church-yard. 1657.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:118098:2"/>
+            <head>Doctiſsimo Domino ET Amico meo Multis nominibus obſervando, <hi>ELIAE ASHMOLO,</hi> Armigero.</head>
+            <opener>
+               <salute>Fortiſsime Literarum Aſtrologicarum <hi>Atlas:</hi>
+               </salute>
+            </opener>
+            <p>
+               <seg rend="decorInit">E</seg>Tſi Conſiliis meis intimum ha<g ref="char:EOLhyphen"/>beam <hi>Bernardum;</hi> cujus eſt in <hi>Coelo Theologico,</hi> veluti Stella primae Magnitudinis; <hi>Haec</hi>
+               <note place="margin">S. Bern. ſerm. 43. in Cant.</note> 
+               <hi>mea ſublimior Philoſophia, ſcire Jeſum &amp; hunc crucifixum: Sub<g ref="char:EOLhyphen"/>limem</hi> tamen <hi>Philoſophiam,</hi> Cor<g ref="char:EOLhyphen"/>porum Coeleſtium indagatricem, cum Philoſo<g ref="char:EOLhyphen"/>phis ad unum omnibus, in ſummis pono. Quippe quae meditationi juxta, &amp; actioni, honorifice ma<g ref="char:EOLhyphen"/>teriam fomitemque ſuppeditat.</p>
+            <p>
+               <hi>Meditatio</hi> &amp; <hi>Actio</hi> conſpirant in <hi>Vitam mixtam,</hi>
+               <pb facs="tcp:118098:3"/> quae <hi>perfectionis</hi> numeros omnes implet, utpote complexa <hi>perfectiones</hi> ambarum, licet non in <hi>gradu ſummo</hi> ſicutique ſunt in ipſis. Quinimo eſt Vita Angelorum, at<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> etiam haud incongrue Solis Ra<g ref="char:EOLhyphen"/>diis aſſimilatur, qui uno eodemque tempore, ſub<g ref="char:EOLhyphen"/>ſtantiae Solis fideliter adhaerent, &amp; in terras diffuſe prolabuntur.</p>
+            <p>Ait <hi>Metropoli Judaeorum</hi> Dominus per <hi>Ezekie<g ref="char:EOLhyphen"/>lem;</hi>
+               <note place="margin">Ezek. 16. 10. <hi>Idierp. Vulgat. ſeps.</hi>
+               </note> Calceavi te janthino. Ita <hi>vulgatus:</hi> Vel, ut habent <hi>Septuaginta,</hi> 
+               <gap reason="foreign" resp="#OXF">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>Hyacinthino,</hi> i. e. <hi>violacei &amp; Coeleſtis coloris calceo.</hi> Ut <hi>Symbolice</hi> no<g ref="char:EOLhyphen"/>tum daret; <hi>Sanctorum,</hi> quibus Eccleſia Mater eſt, qui<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> ad <hi>Civitatem Dei</hi> pertinent, greſſus eſſe Coe<g ref="char:EOLhyphen"/>leſtes verſuſ<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> Coelum verſos. Nempe, quod <hi>Sancti ſanctiſsimi Chriſti,</hi> qui <hi>deſcendit de Coelo,</hi> ut <hi>in Coelum</hi> Triumphator <hi>aſcenderet,</hi> veſtigiis inſiſtant, mandatiſ<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> divinis reſpondendo Coelum petant Coelorum: Quin &amp; in <hi>Aſtrologos</hi> quodammodo <hi>Calcei</hi> quadrant <hi>Hyacinthini.</hi> At<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> ut aurei mali ſucco ſcriptae Literae, tum demum leguntur, cum flammis at<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> ignibus illuſtrantur: ita divinae po<g ref="char:EOLhyphen"/>tentiae <hi>Cylindros</hi> in humanis accurate <hi>perveſtigamus,</hi> ubi <hi>res humanas</hi> ad <hi>Aſtra</hi> ſapienter transferimus.</p>
+            <p>Egregie <hi>Ariſtoteles;</hi> ſed filo ſolutiore: <hi>Cognitio mi<g ref="char:EOLhyphen"/>nima</hi>
+               <note place="margin">Ariſt. lib. 1. de Partib. Anima<g ref="char:EOLhyphen"/>tiam, cap. 5.</note> 
+               <hi>de rebus maximis, major eſt, quam cognitio maxi<g ref="char:EOLhyphen"/>ma de minimis rebus.</hi> Aqua fluvialis, dum ſuo con<g ref="char:EOLhyphen"/>tineatur at<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> agitetur alveo, naribus aut oculis haud ſe praebet ingratam: ſi diverticula quaerat at<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> otia, mutata res eſt: Aquas marinas caſus manet idem; idem<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> 
+               <hi>ſacram deinſuper Aſtrologiam. Omnium motuum cauſa eſt primus motus. Bonorum om<g ref="char:EOLhyphen"/>nium Actuum eſt cauſa Actus ille qui primus at<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> opti<g ref="char:EOLhyphen"/>mus.</hi> Utrobi<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> tamen libertas inconcuſſa conſiſtit.
+<pb facs="tcp:118098:3"/> Si nam<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> Stellae voluntati noſtrae victrices admo<g ref="char:EOLhyphen"/>verent Machinas, totum uti<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> hominem pervade<g ref="char:EOLhyphen"/>rent. Rationem ingerit <hi>Angelicus Doctor: Qui<g ref="char:EOLhyphen"/>libet</hi>
+               <note place="margin">D. Tho. p. 1. q. 5. art. 4. ad 3.</note> 
+               <hi>habens voluntatem, dicitur bonus, in quantum habet bonam voluntatem: quia per voluntatem utimur omnibus quae in nobis ſunt. Unde non dici<g ref="char:EOLhyphen"/>tur bonus homo, qui habet bonum intellectum, ſed qui habet bonam voluntatem.</hi> In omni ſententia novus <hi>Achates,</hi> Imaguncula nova. Sed <hi>Excellentiae</hi> at<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> 
+               <hi>Innocentiae</hi> fraudem facit Invidia. In longum pal<g ref="char:EOLhyphen"/>ma rectum<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> porrigitur, &amp;, ultra fructuum deli<g ref="char:EOLhyphen"/>cias, ramos explicat fragrantes: At <hi>incommodant</hi> ei <hi>Serpentes</hi> ac Ranunculi, radicibus adhaerentes.</p>
+            <p>Homo nigellus, quaſi umbra ex <hi>Hypoſcenio, Aſtro<g ref="char:EOLhyphen"/>logos</hi> perſequitur. Non huic unquam detulit pri<g ref="char:EOLhyphen"/>mas, palmam<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> dedit <hi>Alma Mater,</hi> non Soror <hi>Al<g ref="char:EOLhyphen"/>mae.</hi> Preterea, rumor in vulgus abiit, hunc neſcio quibus laborare Paroxyſmis; &amp; rurſum ſemper ad ingenium redire: nec poſſe cogitationes, vel ſanterna delinitas, coercere: ſcilicet in aegris his exulceratiſ<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> rebus, &amp; extrema jam ſpe pendenti<g ref="char:EOLhyphen"/>bus. Certe, coguntur in anguſtum hujus copiae, qui praeter Anglicanae Linguae petitas e trivio faeculas, haud quicquam venditat: qui<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> ſurdis narrare velit fabulam, redolentem profecto hir<g ref="char:EOLhyphen"/>cum, ſuem; ſimium, haud qualemcun<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> ſed im<g ref="char:EOLhyphen"/>primis eum qui ſit vetus, vietus, veternoſus. Ad<g ref="char:EOLhyphen"/>eſt, &amp; abeſt: verba conglobat; idem<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> reſcindit: comparet; ac, velut unguento magico delibutus, conſpectui ſe, cum voluerit ſubducit. Deinde Le<g ref="char:EOLhyphen"/>pus (ut ita dicam) ad Ovium gregem ſe recipit, inſequentibus a Tergo regiis canibus; non ut O<g ref="char:EOLhyphen"/>ves adjungat ſibi comites, ſed ut odore leporino in
+<pb facs="tcp:118098:4"/> Ovium abeunte, canes effugiat.</p>
+            <p>Scripſit <hi>Hieronymus Rorarius</hi> Libros duos, quibus <hi>Titulus</hi> eſt, <hi>Quod Animalia Bruta ſaepe ratione utantur</hi>
+               <note place="margin">Hieron. Rorar. lib. 1.</note> 
+               <hi>melius Homine.</hi> In quorum primo, non inamoenam de cane texit Hiſtoriam: cum Circitor e gremio Libellum extraheret diſtinctum notis muſicis, ad genua confeſtim canis exiliens, canentem perite ſectabatur voce nunc acuta, nunc etiam gravi; modo quidem continuato Spiritu in longum tra<g ref="char:EOLhyphen"/>cta, modo iterum inflexo delicate variata. Et nunc Circitori plebeius canis accinit, iſ<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> praeterea ira<g ref="char:EOLhyphen"/>tus ac rabidus, nec tamen vel adhuc timendus.</p>
+            <p>Idem <hi>Rorarius</hi> in Libro ſecundo, literis exaratum<note place="margin">Idem. lib. 2.</note> reliquit; homines non paucos aliquoties, imo vero quotidie reperiri, quibus ob admiſſa furta ter<g ref="char:EOLhyphen"/>gus virgis interciſum, abſciſſae auriculae, genae cauterio ſignatae, truncata manus altera, ocu<g ref="char:EOLhyphen"/>lus erutus; nec tamen a furtis continere ſe poſſe, donec laqueo ſe pendulos dederint. In hunc ad unguem cadunt haec omnia, repoſito aliquantiſper laqueo.</p>
+            <p>Accipe nunc igitur, Vir optime, in benevolentiae tuae Apothecam, (cujus cogitatio, inſtar <hi>Nepenthis Homerici,</hi> in hac mea tam vitrea, &amp; ancipiti vale<g ref="char:EOLhyphen"/>tudine, me luxatum &amp; jacentem recreavit ac e<g ref="char:EOLhyphen"/>rexit in pedes) pauculos ex uberiore meſſe mani<g ref="char:EOLhyphen"/>pulos. Noli, quaeſo, in futurum propendentes praepedire conatus; fervori ſacro noli frigidam of<g ref="char:EOLhyphen"/>fundere. Sub tuo Patrocinii velut <hi>Aſteriſmo,</hi> res ipſa mihi praeſtabit adoream.</p>
+            <closer>
+               <signed>Tui obſervantiſſimus: Richardus Carpenterus.</signed>
+            </closer>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:118098:4"/>
+            <head>To the Honourable SOCIETY OF ASTROLOGERS.</head>
+            <opener>
+               <salute>Gentlemen,</salute>
+            </opener>
+            <p>
+               <seg rend="decorInit">A</seg>S in our <hi>Country,</hi> which is Hea<g ref="char:EOLhyphen"/>ven, God is <hi>Speculum Crea<g ref="char:EOLhyphen"/>turarum; The Glaſs of the Creatures:</hi> wherein the Crea<g ref="char:EOLhyphen"/>tures are reſplendent, viſible, and preſented by the <hi>Beatifical Viſion,</hi> (though not <hi>as it bea<g ref="char:EOLhyphen"/>tifies:</hi>) So in our <hi>Way,</hi> being this World and Life, the Creatures are <hi>Speculum Creatoris, The Glaſs in which we behold the Creator.</hi> Now becauſe the Creator is <hi>Primum Ens, The firſt Thing:</hi> and therefore the moſt noble of all Things; thoſe Creatures are the clearer, and the more Christalline Glaſs, which are the moſt noble. In this rank are the <hi>Heavenly Bodies.</hi> And to the view of this <hi>Glaſs</hi> eſpecially, ye are now invited, and as it were, ſollicited by them.</p>
+            <p>
+               <hi>Tertullian</hi> obſerves, That the verbal Salutation of<note place="margin">Tert. lib. 5. Con<g ref="char:EOLhyphen"/>tra Marcion. cap. 5.</note>
+               <pb facs="tcp:118098:5"/> the old Jews, when they met occaſionally, <hi>Scalom le<g ref="char:EOLhyphen"/>chem, Pax vobis, Peace be unto you:</hi> and that the <hi>Apoſtolical Salutation</hi> ſomewhat differed, being <hi>Gratia &amp; Pax vobis; Grace and Peace be unto you;</hi> becauſe the Apostles were the Preachers of <hi>Grace</hi> derived from God through Christ. Wherefore, that the noble Creature may be a fair <hi>Glaſs</hi> to you, repreſenting the Creator; my <hi>Salutation</hi> of you, ſhall be likewiſe <hi>Apoſtolical: Grace be to you, and Peace: Grace</hi> from God the <hi>Fountain of Grace;</hi> and that <hi>Peace</hi> which <hi>divine Grace</hi> produces, and ſettles. <hi>Grace be to you</hi> before your enquiry into the <hi>heavenly Bodies;</hi> and a <hi>gracious Peace,</hi> after it: that your enquiry may be chiefly and <hi>primordially,</hi> a ſober enquiry into God and his Omnipotency. For, as Saint <hi>Gregory Nazi<g ref="char:EOLhyphen"/>anzen,</hi>
+               <note place="margin">
+                  <hi>St.</hi> Greg. Naz. in Apologetico.</note> 
+               <hi>Theologically</hi> teaches: <gap reason="foreign" resp="#OXF">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>It is the beſt or<g ref="char:EOLhyphen"/>der, when we begin either a Speech or a Work; religiouſly to begin with God, and to end with God religiouſly.</hi> By the way: I do not here abuſe the most holy Name of <hi>God,</hi> and of <hi>Religion,</hi> (although ſome have done it) as <hi>Conjurers</hi> in their <hi>Incantati<g ref="char:EOLhyphen"/>ons;</hi> to perpetrate thoſe Things which are most adverſe to God, and moſt destructive of Religion: but I uſe it onely in the ſhutting up of my <hi>Apoſtolical Salutation</hi> of you, as ye are Chriſtians, and as wiſe beholders of the <hi>Glaſs,</hi> wherein the Creator, though in Himſelf inviſi<g ref="char:EOLhyphen"/>ble, viſibly appears and ſhews Himſelf.</p>
+            <p>If ye ſteer this courſe; (and I am not warranted to judge otherwiſe of you:) I ſhall number your ignorant, yea, impudent Enemies, and thoſe who revile you, a<g ref="char:EOLhyphen"/>mongſt the <hi>mad people</hi> of this Nation. And now it calls
+<pb facs="tcp:118098:5"/> for admittance; I will open to you a <hi>Secret,</hi> lock'd up in the cloſe Cabinet of my Thoughts. But, I pray, keep it as a <hi>Secret,</hi> and tell it not abroad: neither let it go in<g ref="char:EOLhyphen"/>to the cold air. I have <hi>experimentally</hi> found in the world, that Princes have their Jayls for Offenders, and their <hi>Bedlams</hi> for <hi>mad People:</hi> and I know, that God is the greatest of Princes; and that Hell is his Jayl. And in good ſooth I never heard of, read of, or beheld a place, which can more appliably be called his <hi>Bedlam</hi> than <hi>England.</hi> But ye will ſay: How ſo? <hi>England</hi> God's <hi>Bedlam?</hi> are all the <hi>People</hi> of Eng<g ref="char:EOLhyphen"/>land <hi>mad?</hi> I anſwer: No: for in a <hi>Bedlam-houſe,</hi> the <hi>mad People</hi> have their ſober Keepers, their wiſe Phyſitians, their civil Waiters and Servants; and alſo thoſe, whoſe office it is to whip them, and thereby to a<g ref="char:EOLhyphen"/>wake and recal their Senſes. There's the Secret. But they who ignorantly and impudently ſcoff at you, are cer<g ref="char:EOLhyphen"/>tainly in the number of the <hi>mad ones.</hi> And therefore, be not ye diſmayed; be not diſcomforted.</p>
+            <p>The Pſalmiſt ſingeth of Man: <hi>Thou haſt made</hi>
+               <note place="margin">Pſal. 8. 5. <hi>S. Hieron. in Bibl.</hi>
+               </note> 
+               <hi>him a little lower then the Angels.</hi> Saint <hi>Hierom</hi> gives: <hi>a little lower then God;</hi> the Word being <hi>E<g ref="char:EOLhyphen"/>lohim,</hi> ſignifying both <hi>God</hi> and <hi>Angels.</hi> And in ma<g ref="char:EOLhyphen"/>ny reſpects, man is priviledg'd before the Angels. One of which I ſhall propoſe here. The Creature purely cor<g ref="char:EOLhyphen"/>poreal is ſubjected to the Angels, becauſe the Angels ſtand above it in <hi>order,</hi> and becauſe they may <hi>natu<g ref="char:EOLhyphen"/>rally</hi> exerciſe their prevalent <hi>power</hi> upon it; if God gives the Command: as men alſo can ſupernatually, who are ſupernatually endued with the <hi>power of working Miracles.</hi> But it is not ſubjected to them <hi>quoad uſum,</hi> to uſe it as God hath ſubjected it to men. It is granted: the Angels more acutely, and accurately,
+<pb facs="tcp:118098:6"/> more fully and and plentifully underſtand the <hi>motions</hi> and <hi>effects</hi> of the <hi>heavenly Bodies,</hi> then men do: But yet again, they do not, as men do, communicate their knowledge to men, (nor always to Angels) neither are we rendred more learned by them.</p>
+            <p>In a Lymbeck, the ſubſtance of greateſt purity and vertue is ſublimated: I mean: climbes to the top of the Lymbeck: when the ſullen droſsy matter ſinks down<g ref="char:EOLhyphen"/>ward, and falls to the bottom. Go on therefore, O ye no<g ref="char:EOLhyphen"/>ble Students in <hi>Aſtrology:</hi> and becauſe the ſoul is im<g ref="char:EOLhyphen"/>mur'd in the Body, and is like the Bird of <hi>Para<g ref="char:EOLhyphen"/>diſe,</hi> when ſhe is cag'd; though your Bodies, being droſsy, are not obedientially ſubject to your ſouls in their motions: advance your ſouls towards Heaven. And yet as <hi>Saturn</hi> the most ſupreme Planets hath the ſloweſt courſe; ſo the higher ye are in your Thoughts, be ye the more deliberate in your actions: and I pray God to ſtrike all our hard and heavy hearts with the <hi>Rod of Moſes,</hi>
+               <note place="margin">Exod. 17. Heb. 12. 1.</note> that our ſins, and every <hi>weight</hi> in our ſouls, may run away in tears; and that we aſcending to and above the <hi>Lights in Heaven, our converſation</hi> may be <hi>in hea<g ref="char:EOLhyphen"/>ven,</hi>
+               <note place="margin">Philip. 3. 20. Mat. 5. 16.</note> and <hi>ſhine</hi> upon Earth.</p>
+            <closer>
+               <signed>Yours in all Chri<g ref="char:EOLhyphen"/>ſtian Reſpects: Richard Carpenter.</signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="sermon">
+            <pb n="1" facs="tcp:118098:6"/>
+            <head>ASTROLOGY Proved Harmleſs, Uſeful, Pious.</head>
+            <p>
+               <seg rend="decorInit">A</seg>Lthough God be, as he is <hi>deſcrib'd</hi> in <hi>Dionyſius Areopagita;</hi> 
+               <gap reason="foreign" resp="#OXF">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>:<note place="margin">S. Dionyſ. A<g ref="char:EOLhyphen"/>reop. de divin. Nom. cap. 1.</note> 
+               <hi>a ſuperſubſtantial Sub<g ref="char:EOLhyphen"/>ſtance, an Underſtanding not to be underſtood, a Word never to be ſpoken:</hi> and therefore we know not the <hi>myſterious</hi> or profound Things of God, but as they have been chanell'd to us by God himſelf in <hi>divine Revelation:</hi> yet his Creatures, as deſcended from him, and even thoſe which are above us (in <hi>place</hi> or <hi>perfection</hi>) may be in ſome due meaſure, known by us, upon our own queſt and enquiry.</p>
+            <p>The Reaſon is Pillar-ſtrong, Becauſe the higheſt and moſt perfect of Creatures are conditioned <hi>infinitely</hi> be<g ref="char:EOLhyphen"/>neath God: and <hi>betwixt finite and infinite there is no pro<g ref="char:EOLhyphen"/>portion.</hi>
+            </p>
+            <p>Where Saint <hi>Paul</hi> writing to the <hi>Epheſians,</hi> hath in the <hi>Engliſh, The foundation of the World;</hi> and in the <hi>Latine,</hi>
+               <note place="margin">Epheſ. 1. 4.</note>
+               <pb n="2" facs="tcp:118098:7"/> 
+               <hi>Mundi Conſtitutionem: The Conſtitution of the World</hi>
+               <note place="margin">Editio vul<g ref="char:EOLhyphen"/>garis. Textus Grae<g ref="char:EOLhyphen"/>cus.</note> the <hi>Original</hi> founds, <gap reason="foreign" resp="#OXF">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>the dejection of the World.</hi> Becauſe the World, and the Things in and of the World, are, by vertue of their Creation <hi>dejected,</hi> and caſt downwards; having received as it were, an <hi>infinite fall</hi> in their Creation, and <hi>dejection</hi> from God. Wherefore Saint <hi>Chryſoſtom,</hi> examining theſe words of<note place="margin">
+                  <hi>S. Chryſoſt. in cap. 1. Ep. ad</hi> Epheſ.</note> Saint <hi>Paul,</hi> declares, That there is <gap reason="foreign" resp="#OXF">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>a great and unſpeakable Sublimity of God, from which the Creatures have in their Creation, fallen.</hi> Yea <hi>Origen,</hi> be<g ref="char:EOLhyphen"/>lieves,<note place="margin">
+                  <hi>Origen in cap.</hi> 8. Joan.</note> That the word <gap reason="foreign" resp="#OXF">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, was divinely invented and excogitated by the Apoſtle to ſignifie the <hi>dejection, abjection,</hi> and vility of the World in reſpect of God, and of his <hi>unſpeakable ſublimity.</hi> And ſenſing the deep ſay<g ref="char:EOLhyphen"/>ing of our Saviour, <hi>Ye are from beneath, I am from above;</hi>
+               <note place="margin">John 8. 23.</note> 
+               <hi>ye are of this world, I am not of this world:</hi> in which place, the <hi>Latine</hi> yieldeth, <hi>Vos de deorsùm eſtis. Ye are from</hi>
+               <note place="margin">Bibl. vulg. Text. Graec.</note> 
+               <hi>downwards;</hi> and the <hi>Greek, <gap reason="foreign" resp="#OXF">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, Ye are of the things that are down,</hi> or <hi>downward:</hi> He ſaith, <hi>Rectè, deorsùm: Nam quomodò mundus iſte habere aliquid</hi>
+               <note place="margin">
+                  <hi>Orig.</hi> ubi ſu<g ref="char:EOLhyphen"/>pra.</note> 
+               <hi>ſupernè poſſet, cujus conditio eſt dejecto? It is rightly ſaid, downward: For, how could this World have any thing on high, whoſe condition is dejection?</hi> He infers afterwards, <hi>Totus ita<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> mundus, &amp; quae in ipſo ſunt, in dejectione ſunt. Therefore the whole World, and the Things in it, are in the ſtate of dejection.</hi>
+            </p>
+            <p>The Marrow-Truth here, which I would bring with<g ref="char:EOLhyphen"/>in my Verge, and lodge in the Centre of my Diſcourſe, is, <hi>Viſible Things in a dejected condition, and thrown down infinitely beneath God; may be known in a fit meaſure by the Prince of all viſible Creatures: yea, he ought to know them in a princely meaſure; they being ſubſervient to him, and to his End, which is the Knowledge, Worſhip, and Glory of God; and he being directed with his face towards them, above, be<g ref="char:EOLhyphen"/>neath, and on every ſide.</hi>
+            </p>
+            <pb n="3" facs="tcp:118098:7"/>
+            <p>This place my Text claims:</p>
+            <q>
+               <bibl>
+                  <hi>Gen.</hi> 1. 14.</bibl> And let them be for Signs, <hi>&amp;c.</hi>
+            </q>
+            <p>The Words are the Words of God the Creator; and they point to the <hi>Lights</hi> in the Heavens above us: They were ſpoken when the <hi>Lights</hi> were created, inſtituted and <hi>ſet in order to their end.</hi> Where note, That God's Words here are <hi>practical,</hi> and <hi>effect what they ſignifie.</hi>
+            </p>
+            <p>Let us take into our beſt and moſt judicious thoughts, that God is an <hi>intellectual Agent,</hi> and the moſt wiſe of all others: yea, that he is the <hi>firſt Agent,</hi> upon whom all things depend, both in their <hi>Being</hi> and <hi>Operation;</hi> and by whom all things are obliged to their <hi>ends;</hi> which <hi>ends</hi> are prefixed by him. In which current of ſenſe, the ſupreme <hi>Lights</hi> are here expreſly referred to an <hi>effect</hi> or action, as to an <hi>End;</hi> though <hi>partial,</hi> and not <hi>ultimate: And let them be for Signs.</hi>
+            </p>
+            <p>As I would not divide a <hi>Star,</hi> ſo neither will I hew my Text into pieces. It is in the whole, an <hi>Act</hi> of God's <hi>pleaſure</hi> and <hi>power,</hi> by which the <hi>Lights</hi> of Heaven are deſigned for <hi>Signs</hi> to men upon Earth, of ſuch Things, as being <hi>ſignified</hi> in the Heavens, are acted and performed upon Earth.</p>
+            <p>Of <hi>Signs</hi> there are two ſorts: as adhering to this pur<g ref="char:EOLhyphen"/>poſe. Some are <hi>theorical</hi> or <hi>ſpeculative,</hi> others <hi>practical. Practical Signs produce into act their ſignificancy.</hi> As a Seal is a <hi>practical Sign:</hi> which not onely repreſents an Image, but impreſſes alſo the Image it repreſents into the Wax. In which kinde, the Stars and Planets are <hi>Signs:</hi> as <hi>ſignifying</hi> by their <hi>motions, conjunctions, oppo<g ref="char:EOLhyphen"/>ſitions, riſings, ſettings, occultations, apparitions, defections,</hi> and <hi>various Relations</hi> and <hi>Aſpects;</hi> and as <hi>acting</hi> by their <hi>influences.</hi> Whence the <hi>Hebrews</hi> name the Stars, <hi>Maſ<g ref="char:EOLhyphen"/>ſaleth,</hi>
+               <pb n="4" facs="tcp:118098:8"/> being a word bred and born of <hi>Nazal, influere, to give</hi> influx <hi>or influence.</hi>
+            </p>
+            <p>
+               <hi>Divinity</hi> is called in the <hi>Greek Tongue</hi> 
+               <gap reason="foreign" resp="#OXF">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>: which being interpreted, is <hi>Sermo de Deo, A Speech</hi> or <hi>Diſcourſe concerning God. Astrology</hi> is called in the <hi>Greek Tongue</hi> 
+               <gap reason="foreign" resp="#OXF">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>: which being interpreted, is <hi>Sermo de Astris, A Speech</hi> or <hi>Diſcourſe concerning the Stars.</hi> Now the Queſtion is: (and it moves in a high <hi>Orb:</hi>) Whereas God hath ordained the Stars to be <hi>Signs;</hi> and they cannot be <hi>Signs,</hi> except they <hi>ſignifie;</hi> and they can<g ref="char:EOLhyphen"/>not <hi>ſignifie,</hi> with relation to the <hi>viſible World,</hi> ex<g ref="char:EOLhyphen"/>cept unto us, who onely of all viſible Creatures are ca<g ref="char:EOLhyphen"/>pable of underſtanding their <hi>ſignifications;</hi> and they can<g ref="char:EOLhyphen"/>not <hi>ſignifie</hi> to us, except we diligently ſearch and en<g ref="char:EOLhyphen"/>quire into them as they are <hi>Signs:</hi> the Queſtion, I ſay, is; Whether, as there is a lawful, divine, and religious enquiry concerning God, there may not be alſo, a <hi>harm<g ref="char:EOLhyphen"/>leſs, uſeſul,</hi> and <hi>pious</hi> enquiry concerning the Stars and their <hi>Significations?</hi>
+            </p>
+            <p>I prove, That enquiry into the Stars, as they are <hi>Signs,</hi> is <hi>harmleſs, uſeful,</hi> and <hi>pious:</hi> firſt, by moſt anci<g ref="char:EOLhyphen"/>ent and moſt honourable <hi>Example.</hi> Although I believe, that <hi>Adam,</hi> the firſt Man, exiled now from Paradiſe, and touching alwayes at the <hi>heavenly Bodies,</hi> as he look'd up towards God in his Throne; being alſo a long liver; was devoted to this enquiry, as highly becoming his noble and high thoughts: yet I ſhall not call to my help, <hi>R. Solomon</hi>'s Argument, who makes <hi>Adam</hi> ſo high,<note place="margin">R. Solom. in cap. 3 Deuter.</note> that he touch'd Heaven with his Head. I ſhall argue thus onely: The common, ſerious, diligent and fervo<g ref="char:EOLhyphen"/>rous enquiry, that was made into the Stars and <hi>heavenly Bodies</hi> by the <hi>Children of Seth,</hi> renders it <hi>probable,</hi> if not <hi>evident,</hi> That <hi>Adam</hi> had authorized the Work, and plained their path before them. And concerning the <hi>Children of Seth, Joſephus</hi> plainly writes: <hi>Filii autem</hi>
+               <note place="margin">Joſeph anti<g ref="char:EOLhyphen"/>quit. Judaic. lib. 1. cap. 4.</note> 
+               <hi>Seth diſciplinam Rerum Coeleſtium &amp; ornatum earum primi<g ref="char:EOLhyphen"/>tùs invenerunt. The Sons of Seth firſt invented the Learning concerning the heavenly Bodies and their bravery.</hi> Adam
+<pb n="5" facs="tcp:118098:8"/> 
+               <hi>initiated</hi> himſelf into the <hi>practiſe</hi> of it: but the <hi>Chil<g ref="char:EOLhyphen"/>dren of Seth</hi> ripen'd it into an <hi>Art</hi> or <hi>Diſcipline.</hi> And if this <hi>Learning</hi> firſt began (for which, <hi>Joſephus</hi> pulls) in the <hi>Children of Seth;</hi> it was honourably ancient, and excellently honourable: becauſe they were the <hi>Chil<g ref="char:EOLhyphen"/>dren of Seth. Suidas</hi> deſcends to particulars; and, having a quick and unwearied eye in the ſearch of <hi>Anti<g ref="char:EOLhyphen"/>quities,</hi> gives it for certain, That <hi>Seth himſelf invented the</hi>
+               <note place="margin">
+                  <hi>Suidas in ver<g ref="char:EOLhyphen"/>bo</hi> 
+                  <gap reason="foreign" resp="#OXF">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</note> 
+               <hi>Hebrew Letters, and gave Names to the Stars.</hi> And we cannot reaſonably think, that <hi>Seth</hi> being ſo neer to <hi>A<g ref="char:EOLhyphen"/>dam</hi> and his practiſe; (which, to the god<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>y part of <hi>A<g ref="char:EOLhyphen"/>dam</hi>'s<note place="margin">
+                  <hi>See</hi> Gen. 2. 19, 20. &amp; the Ex<g ref="char:EOLhyphen"/>poſitors. <hi>See Moſes Barce<g ref="char:EOLhyphen"/>phas, de Parad. p. 1. and Perer. in</hi> Geneſ. <hi>cap. 2</hi>
+               </note> Children was a <hi>Rule</hi> and <hi>Meaſure</hi> for after<g ref="char:EOLhyphen"/>action;) <hi>gave Names to the Stars,</hi> but ſuch as excellently ſignified their <hi>Natures:</hi> and therefore his enquiry ſearched into the very <hi>Natures</hi> and <hi>Effects</hi> of the Stars; and in this enquiry his learned Children ſucceeded him. <hi>Joſephus</hi> walks on, and tells, what proviſion the <hi>Children</hi>
+               <note place="margin">Joſephasbi ſa<g ref="char:EOLhyphen"/>prâ.</note> 
+               <hi>of Seth</hi> carefully made, for the preſervation of this choice <hi>Learning.</hi> For, being warned by <hi>Adam's Pro<g ref="char:EOLhyphen"/>pheſie,</hi> That there ſhould be two deſtructions of the World, the one by Water, and the other by Fire; they wrote or engrav'd the <hi>Rules</hi> and <hi>Experiments</hi> of their Knowledge on two Pillars, the one being of Stone, the other of Brick: whereof the Stone-Pillar ſtood firm in <hi>Syria,</hi> even to the dayes of <hi>Joſephus.</hi> The <hi>Sons of Seth</hi> had queſtionleſs entred upon other <hi>humane Arts</hi> or <hi>Learnings;</hi> but they did not faſten or fix any by writing, beſides this; this being the moſt noble.</p>
+            <p>It is here alſo, eminently worthy our obſervation: That Mechanical, inferiour, and earthly <hi>Arts,</hi> pertain<g ref="char:EOLhyphen"/>ing to Manufactry, were invented by <hi>Cain</hi> and his <hi>Children;</hi> as abundantly appears in <hi>Geneſis.</hi> But they<note place="margin">Gen. 4. 20, 21, 22.</note> were the <hi>Sons of Seth,</hi> who looked upwards, and wiſe<g ref="char:EOLhyphen"/>ly conſidered the <hi>Natures</hi> and <hi>Effects</hi> of the <hi>Heavenly Bodies.</hi>
+            </p>
+            <p>I prove it again by <hi>Example.</hi> When we firſt hear of <hi>Abraham,</hi> we finde him by the Name of <hi>Abram.</hi> And<note place="margin">Gen. 11. 26.</note> this <hi>Name</hi> is extracted from <hi>Ab,</hi> ſignifying, <hi>Pater, Fa<g ref="char:EOLhyphen"/>ther;</hi>
+               <pb n="6" facs="tcp:118098:9"/> and <hi>Ram,</hi> which is in <hi>Latine, Excelſus, High;</hi>
+               <note place="margin">Euſeb. de Prae<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>a Evang. lib. 11. cap. 6.</note> in <hi>Greek,</hi> according to <hi>Euſebius,</hi> in his <hi>Evangeli<g ref="char:EOLhyphen"/>cal Preparation,</hi> 
+               <gap reason="foreign" resp="#OXF">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>ſublimis, ſublime. Which Name,</hi> ſaith <hi>Euſebius, he obtained, becauſe he profeſſed the Chal<g ref="char:EOLhyphen"/>daical Wiſdom, and expended much time upon the contem<g ref="char:EOLhyphen"/>plation of the Stars and heavenly Bodies:</hi> aſcending by the knowledge of thoſe high Creatures, and of their <hi>Effects,</hi> to the knowledge of the <hi>most high God,</hi> who is the <hi>firſt Cauſe.</hi> And hence was it, that God revealed himſelf to him; that he would not worſhip Fire at <hi>
+                  <g ref="char:V">Ʋ</g>r of the</hi>
+               <note place="margin">
+                  <hi>Suid. in voce,</hi> 
+                  <gap reason="foreign" resp="#OXF">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</note> 
+               <hi>Chaldees;</hi> and that <hi>he broke his Father's Images, and de<g ref="char:EOLhyphen"/>parted from him.</hi> The Writings of <hi>Philo the Jew,</hi> are embelliſhed with this very Obſervation concerning <hi>Abram,</hi> and the Interpretation of his Name. And<note place="margin">Philo de Cherub.</note> above this, <hi>Philo</hi> calleth <hi>Abrahams Father</hi> an <hi>Aſtronomer;</hi> but ſuch a one as deified the Stars.</p>
+            <p>Let the Reader <hi>ſet as a Seal upon his Heart:</hi> Though God ſpeaks thus to <hi>Abram</hi> in his Promiſe, <hi>I will make</hi>
+               <note place="margin">Gen. 13. 16. <hi>Obſervat hoc R. Solomon. Reſert Abulenſis in</hi> Gen. 13. 15.</note> 
+               <hi>thy Seed as the Duſt of the Earth;</hi> with an intention to humble him; and that his <hi>Seed</hi> might therewith be incited to keep God's Commandments, leſt they ſhould be ſcattered <hi>as the Dust of the Earth:</hi> yet quickly afterwards, God raiſes his Promiſe to <hi>Abram</hi>'s own <hi>Sphere</hi> and <hi>Science: And he brought him forth abroad, and ſaid, Look now towards Heaven, and tell the Stars, if thou</hi>
+               <note place="margin">Gen. 15. 5.</note> 
+               <hi>be able to number them. And he ſaid unto him, So ſhall thy Seed be.</hi> Which weigh'd as much as if he had ſaid, Thou haſt long, and with diligence obſerved the Stars; thou haſt learned that they are bright, glorious, numberleſs, and powerful in their <hi>influence</hi> and <hi>effects</hi> upon Earth and <hi>inferiour Things: So ſhall thy Seed be,</hi> if they keep my Commandments.</p>
+            <p>It may not be loſt from this place, That the ſtudy of <hi>Astrology,</hi> was to <hi>Dionyſius Areopagita,</hi> a bleſſed means of his coming to Chriſt: who, beholding that the <hi>Eclipſe of the Sun</hi> in our Saviour's paſſion, exceeded the model of a <hi>natural Eclipſe;</hi> received into his Heart and <hi>Meditations, Deum Naturae patientem. The God of
+<pb n="7" facs="tcp:118098:9"/> Nature, made Man and ſuffering for us;</hi> and afterwards wrote to his Maſter <hi>Apollophanes: Sol in ipſius verae lucis</hi>
+               <note place="margin">S. Dionyſ. Are<g ref="char:EOLhyphen"/>op. in Ep. ad Apolloph.</note> 
+               <hi>occubitu lucere non potuit: The Sun could not ſhine in the ſetting of the true Light.</hi> He was brought by that <hi>Eclipſe of the Sun,</hi> concurring with his knowledge of <hi>Eclipſes:</hi> to<note place="margin">Joh. 1. 9.</note> the knowledge of <hi>the true light, which lighteth every man that cometh into the world.</hi>
+            </p>
+            <p>Secondly, I prove it by <hi>Reaſon.</hi> The Doctrine of <hi>Aquinas</hi> is impregnable, and ſtands like a Tower in the Fort of <hi>Reaſon; Angeli illum gradum tenent in ſubſtantiis</hi>
+               <note place="margin">D. Tho. p. 1. q. 58. Art 3. in corp.</note> 
+               <hi>ſpiritualibus, quem corpora coeleſtia in ſubſta<gap reason="illegible" resp="#KEYERS" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>is corporeis: The Angels hold that degree in ſpiritual ſubſtances, which the heavenly Bodies have and hold in the ſubſtances that are corporeal.</hi> We may lawfully, and without impeach<g ref="char:EOLhyphen"/>ment of our Duty, enquire into the <hi>Nature, Motions</hi> and <hi>Actions</hi> of the <hi>Angels:</hi> therefore we may lawfully, and without infringement of our obligations, enquire into the <hi>Nature, Motions</hi> and <hi>Actions</hi> of the <hi>Heavenly Bodies:</hi> And as that enquiry is <hi>harmleſs, uſeful,</hi> and <hi>pious;</hi> ſo likewiſe is this: and the knowledge of the <hi>heavenly Bodies</hi> is more noble then the knowledge of Earthly Things: and conſequently, the enquiry into thoſe, is more noble: becauſe thoſe are in themſelves more no<g ref="char:EOLhyphen"/>ble then theſe; as being <hi>incorruptible, immutable,</hi> and <hi>permanent. Aquinas</hi> in the ſame place, adorns and e<g ref="char:EOLhyphen"/>vens this Truth: <hi>Eſt autem haec differentia inter Coeleſtia &amp; terrena Corpora, quòd corpora terrena per mutationem &amp;</hi>
+               <note place="margin">D. Tho. ubi ſu<g ref="char:EOLhyphen"/>pra.</note> 
+               <hi>motum adipiſcuntur ſuam ultimam perfectionem; corpora verò Coeleſtia ſtatim ex ipſâ ſuâ Naturâ ſuam ultimam per<g ref="char:EOLhyphen"/>fectionem habent: The difference betwixt heavenly and ter<g ref="char:EOLhyphen"/>rene Bodies, is; that the terrene Bodies do obtain their laſt perfection by mutation and motion; but the heavenly Bo<g ref="char:EOLhyphen"/>dies, preſently by their very Nature, have and obtain their loſt perſection.</hi> And that this Argument may not want its colours and adornment on my part: The praiſes of God, which are occaſioned by the knowledge of the <hi>celeſtial Bodies,</hi> as alſo his praiſes iſſuing occaſionally from the knowledge of the Angels, are more <hi>loud</hi> and
+<pb n="8" facs="tcp:118098:10"/> 
+               <hi>ſounding:</hi> to praiſe God upon theſe <hi>Subjects,</hi> being in a manner, to <hi>praiſe him upon the loud cymbals, upon the high-ſounding</hi>
+               <note place="margin">Pſal. 150. 5.</note> 
+               <hi>cymbals.</hi>
+            </p>
+            <p>Beyond all this: The Heavens follow the Angels, even as they are diſtinguiſhed in their <hi>Work</hi> or <hi>Office.</hi> For, as of the Angels, ſome are <hi>miniſtrantes, miniſtring Spirits;</hi> ſome <hi>aſſiſtentes, aſſiſting;</hi> who are not <hi>ſent,</hi> but attend alwayes upon God in Heaven: ſo amongſt the <hi>heavenly Bodies,</hi> beſides thoſe which are determin'd <hi>ad miniſterium Generationum, to the miniſtery of inferiour Ge<g ref="char:EOLhyphen"/>nerations;</hi> there is a Heaven appointed onely, that the holy Spirits and men may therein for ever wait, and at<g ref="char:EOLhyphen"/>tend upon God; to wit, the <hi>Empyreal Heaven,</hi> which is immoveable, and ſo called from its <hi>fiery ſplendor.</hi> And therefore the likeneſs and agreement betwixt the <hi>An<g ref="char:EOLhyphen"/>gels</hi> and <hi>heavenly Bodies,</hi> (though the things differ in their kindes) is more then ordinary: and as thoſe being Spirits, admit of a diſquiſition; ſo do theſe much more, being Bodies.</p>
+            <p>I prove it again by <hi>Reaſon.</hi> As every <hi>Agent</hi> hath a moſt <hi>proper Act,</hi> (the moſt <hi>proper Act</hi> of Fire, being an <hi>active Subſtance,</hi> is to burn; of Light, being an <hi>active Quality,</hi> is to illuminate or enlighten; of God, who is <hi>Actus purus, a pure act,</hi> 
+               <gap reason="foreign" resp="#OXF">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, ſaith <hi>Syneſius, to</hi>
+               <note place="margin">Syneſ. in Sen<g ref="char:EOLhyphen"/>tentiis.</note> 
+               <hi>do good</hi>) ſo every <hi>Agent (Celestial eſpecially</hi>) hath a cir<g ref="char:EOLhyphen"/>cumſtance of <hi>time,</hi> in the which its <hi>operation</hi> is moſt po<g ref="char:EOLhyphen"/>tent and vigorous, and in the which it moſt ſhineth forth. Now the Stars are powerful <hi>Agents,</hi> yea, glorious Monuments of God's power; and yet, neither the <hi>proper act</hi> of every one in its kinde, (or as compared with others) nor the <hi>circumſtance of time</hi> wherein their <hi>Operation</hi> is moſt <hi>predominant;</hi> by all which, God's Power, and other <hi>divine Attributes</hi> offer themſelves to be farther diſcovered; can be known or diſcovered <hi>ad majorem Dei gloriam: to the greater glory of God,</hi> with<g ref="char:EOLhyphen"/>out a vigilant enquiry. And why he ſhould not en<g ref="char:EOLhyphen"/>quire, whom <hi>Plato</hi> rightly calls <gap reason="foreign" resp="#OXF">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>an heavenly</hi>
+               <note place="margin">Plato in Timaeo.</note> 
+               <hi>Plant;</hi> and to whom therefore <hi>Philo</hi> (the <hi>Jewiſh Plato</hi>)
+<pb n="9" facs="tcp:118098:10"/> aſſigns <gap reason="foreign" resp="#OXF">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>heavenly nouriſhment; Reaſon</hi> can<g ref="char:EOLhyphen"/>not ſee a Reaſon.</p>
+            <p>I confirm it. As there is no <hi>paſſive power,</hi> which hath not an <hi>active power</hi> anſwering to it, and bending towards it: So there is nothing <hi>ſcibile, cognoſcible,</hi> or <hi>able to be known,</hi> to the which an <hi>intellective</hi> and <hi>cog<g ref="char:EOLhyphen"/>noſcitive power</hi> doth not anſwer. Which <hi>power,</hi> though it neither doth, nor ſhall perhaps <hi>actually know,</hi> the Things <hi>cognoſcible</hi> by it, (in which ſenſe, <hi>Intelligere eſt quoddam pati, to underſtand is in ſome kinde paſſive;</hi> and as there is <hi>intellectus agens, an agent underſtanding,</hi> ſo there is <hi>intellectus patiens, an underſtanding that is patient;</hi>) yet is in an active readineſs to know them. Otherwiſe, <hi>Fru<g ref="char:EOLhyphen"/>ſtrà eſſet potentia, quae reduci non poſſet in actum: The power would truely be vain in reſpect of ſuch and ſuch things, which being referred to them, could not be reduced into act:</hi> and there would be <gap reason="foreign" resp="#OXF">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>a great Chaſm</hi> in Nature. And when we ſpeak of <hi>powers active</hi> and <hi>paſſive,</hi> we intend all ſuch powers, betwixt which there is a <hi>fit proportion.</hi> And humane underſtanding <hi>propor<g ref="char:EOLhyphen"/>tionably</hi> anſwers to <hi>material Things.</hi> Indeed, Many Things are hidden from us in the belly of the Earth, and in the womb of the Sea; and we know them not, be<g ref="char:EOLhyphen"/>cauſe there is <hi>vel impedimentum ex parte medii, vel de<g ref="char:EOLhyphen"/>fectus ob indebitam diſtantiam, vel tandèm utrum<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan>: Either an impediment in the medium,</hi> as being obſtipated, <hi>or a defect by reaſon of undue diſtance, or both;</hi> and thus they are withdrawn from our ſenſe: whereas, <hi>Omnis cognitio à ſenſu initium habet: all knowledge of ſenſible things, begins in the ſenſe.</hi> But in the night, the great Curtain is drawn, and the <hi>heavenly Bodies</hi> are viſible, either in them<g ref="char:EOLhyphen"/>ſelves or by Inſtruments: and we are then, as it were,<note place="margin">Amos 5. 8.</note> allured <hi>to ſeek him that maketh the ſeven Stars and Orion.</hi>
+            </p>
+            <p>Be it confeſſed, That we ſeek God in ſome ſort, if we look upon theſe Creatures afar off; and thence admire, and love God. But we have no limits given to us, when we ſeek God in his Creatures: and there<g ref="char:EOLhyphen"/>fore, we ſeek him in a more excellent manner, when
+<pb n="10" facs="tcp:118098:11"/> we ſeek him through more and more <hi>effects</hi> and <hi>works</hi> of his <hi>Power, Wiſdom, Perfection, Government,</hi> &amp;c. E<g ref="char:EOLhyphen"/>ſpecially, when we behold through all the kindes of Things, that God <hi>moves</hi> and governs <hi>inferiora per ſupe<g ref="char:EOLhyphen"/>riora: inferiour Things by Things which are ſuperiour:</hi> The Truth of which appeared, as many other excellent Truths alſo did, to the Atheiſtical Brain of <hi>Galen</hi> himſelf:<note place="margin">Galenus, lib. 3. cap. 1. De Die<g ref="char:EOLhyphen"/>bus decretoriis.</note> who confidently ſaith: <hi>Omnia haec inferiora à Coeleſtibus vim accipiunt, &amp; certo ordine modo<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> gubernantur: All theſe inferiour Things receive their force from the Things which are ſuperior and Celeſtial, and in a certain order and manner are governed by them.</hi> Let it go again, <hi>pro conceſſo, for a Thing granted;</hi> that, as Stars, which have the leaſt Circuit, are the neereſt to the Pole; ſo Men, who are leaſt perplexed with temporalities, are commonly the neereſt to God. But I ſuppoſe that this Enquiry, is a <hi>pious</hi> and earneſt <hi>ſeeking</hi> of God in more and more Reaſons anſwering to his <hi>Attributes:</hi> and that there<g ref="char:EOLhyphen"/>by the Student is enabled, as he is a Member and Part of a Chriſtian Society, to miniſter helps to his Brethren, which to the preſent evils are <hi>therapeutica, medicinal;</hi> and <hi>prophylactica, preſervative,</hi> in regard of the future. For, as God in the giving of his <hi>ſpiritual Gifts</hi> and <hi>Graces,</hi> wills &amp; intends that all poſſible good ſhould be reaped by them; ſo in the propoſition of his <hi>material Works</hi> and <hi>Gifts,</hi> he wills and intends them to be known, as far as our knowing and underſtanding Veſſels are ca<g ref="char:EOLhyphen"/>pable, if our knowledge ends in him and in his praiſes.</p>
+            <p>Thirdly, I prove it from the evils, which have <hi>directly</hi> and lineally enſued, where this Enquiry was not made. No Man that hath taſted Learning, is ignorant of the great Evils which have enſued in the World, by reaſon that the <hi>Eclipſes</hi> of the Sun and Moon, and the cauſes of them, were not juſtly underſtood. Let it paſs, that whole Armies have been terrified and degraded from their deſigns. Every Waiter at the Door of the School, knows, that the people in the <hi>Eclipſes</hi> of the Moon, made horrible noiſes and out-cries, thinking thereby to
+<pb n="11" facs="tcp:118098:11"/> ſupport and cheriſh her in her <hi>labour.</hi> The Chriſtians themſelves were grievouſly infected with this abomi<g ref="char:EOLhyphen"/>nable Superſtition, as we finde in <hi>Maximus Taurinenſis,</hi>
+               <note place="margin">Max. Taur. Hom de defectu Lunae. S. Aug. ſerm. 215. de temp. S. Ambr. ſerm. 4.</note> and in Saint <hi>Austin.</hi> Saint <hi>Ambroſe</hi> is as much troubled as the Moon in her <hi>Eclipſe,</hi> and ſharply chides the ſu<g ref="char:EOLhyphen"/>perſtitious people, who thought, that the <hi>Moon eclipſed</hi> was in great danger of falling; and who did therefore make a noiſe, hoping therewith to animate, help, and uphold her; and leſt hearing the charms of Witches, ſhe ſhould by the ſecret power of them, be ſeduced and enticed out of her <hi>Sphere.</hi> Had the Reaſon of an <hi>E<g ref="char:EOLhyphen"/>clipſe, Solar</hi> or <hi>Lunar,</hi> been wiſely declared to any of theſe people, <hi>Heatheniſh</hi> or <hi>Chriſtian,</hi> by men learned and skilful in the <hi>Nature</hi> and <hi>Motions</hi> of the <hi>heavenly Bodies</hi> or <hi>Lights,</hi> as they are <hi>Signs;</hi> God had not been diſhonoured by this moſt impious and filthy Superſtiti<g ref="char:EOLhyphen"/>on. <hi>Maximus,</hi> Saint <hi>Austin,</hi> Saint <hi>Ambroſe,</hi> and ma<g ref="char:EOLhyphen"/>ny others, otherwiſe taught the Chriſtian people, as their pious Writings teſtifie: but, <hi>fools hate knowledge:</hi>
+               <note place="margin">Prov. 1. 22.</note> and Ignorance is the Mother of Superſtition: and the <hi>Fathers</hi> were alwayes interpreted by the people, to ſpeak of ſuch Things, more piouſly, then ſolidly and knowingly. A known and profeſſed <hi>Astrologer</hi> would have eaſily in<g ref="char:EOLhyphen"/>vaded their Hearts. Moreover: Had theſe <hi>Eclipſes</hi> been learnedly foreſeen, the people would have been pre<g ref="char:EOLhyphen"/>pared by a <hi>Prediction,</hi> to receive them as agreeable to Nature. But the wiſeſt of people in thoſe dayes, being deficient in the <hi>prognoſis,</hi> could not ſo per<g ref="char:EOLhyphen"/>fectly repair the breaches in the <hi>diagnoſis.</hi>
+            </p>
+            <p>This Heatheniſh Practiſe expoundeth a Text in Holy Scripture, which hath been hitherto managed againſt <hi>Astrology;</hi> but indeed proves and pleads for it, if an<g ref="char:EOLhyphen"/>nexed unto this practiſe of the ſeduced people. <hi>Learn</hi>
+               <note place="margin">Jer. 10. 2.</note> 
+               <hi>not the way of the heathen, and be not diſmayed at the ſigns of heaven; for the heathen are diſmayed at them: for the</hi>
+               <note place="margin">verſ. 3.</note> 
+               <hi>cuſtoms of the people are vain.</hi> The <hi>Latine</hi> aſcribeth: Juxta vias Gentium nolite diſcere: &amp; à ſignis Coeli nolite me<g ref="char:EOLhyphen"/>tuere,<note place="margin">Edit. Latin.</note> quae timent Gentes: <hi>Learn ye not, according to the
+<pb n="12" facs="tcp:118098:12"/> way of the Gentiles: neither fear ye any thing injected from the ſigns of heaven, which the Gentiles fear.</hi> That is, Caſt away cauſeleſs fear, when the <hi>heavenly Signs</hi> frown, and ſeem dark and troubled; and entertain the Vertue of <hi>Fortitude,</hi> oppoſed to the <hi>Fear</hi> which becomes not the <hi>people of God.</hi>
+            </p>
+            <p>Yea, <hi>Ludovicus Vives,</hi> the Interpreter of Saint <hi>Au<g ref="char:EOLhyphen"/>ſtin,</hi>
+               <note place="margin">Lud. Viv. in lib. 10. de Civit. Dei, cap. 16.</note> relates of an Aſs in his time, which drinking in a River, when the Moon crept under a Cloud, was thought by the people, to have drunk up the Moon; and was therefore impriſon'd, arraign'd before a Judge, caſt by ſufficient Witneſſes, condemn'd, and rip'd up, that he might reſtore the Moon to the World. Ye have in this Hiſtory, more then one Aſs. This egregious and moſt abſurd act of Ignorance and Folly, was com<g ref="char:EOLhyphen"/>mitted; becauſe that part of the World was not ſo rich, as to have an <hi>Astrologer.</hi> Whoſe enquiry in this reſpect, would have been <hi>harmleſs, uſeful,</hi> and <hi>pious.</hi>
+            </p>
+            <p>Again, I prove it from evils, enſuing the relapſe of this enquiry. Amongſt the many ſenſeleſs errours wherewith <hi>Mahomet</hi> hath contaminated and polluted the World, by the peſtilential Air of his <hi>Alco<g ref="char:EOLhyphen"/>ran;</hi> thoſe hold up the head, which concern the Heavens.</p>
+            <p>
+               <hi>Mahomet</hi> preacheth from his <hi>Alcoran:</hi> That the<note place="margin">Vide Alcora<g ref="char:EOLhyphen"/>num ubi haec &amp; hujúſmodi plu<g ref="char:EOLhyphen"/>ra, ſparſa ſunt per librum to<g ref="char:EOLhyphen"/>tum.</note> Heavens are ſuſtained, leſt they ſhould fall, by the <hi>Moun<g ref="char:EOLhyphen"/>tain Caf;</hi> and that by the <hi>repercuſſion</hi> of the colour of the Mountain, they become Azure-coloured: That the Stars are bound with golden Chains, faſtned to the <hi>Throne of God:</hi> That the Moon fell to the ground in his dayes, and was broken into parts with the fall: and that he imbracing the parts, rejoyned them into one, and then repos'd the Moon in its heavenly Manſion; and that therefore the Moon hath <hi>Maculas, ſpots:</hi> That in the beginning of the World, the Moon enjoyed light equal with the Sun; but the moſt glorious part of it was extinguiſhed with the Wings of the Angel
+<pb n="13" facs="tcp:118098:12"/> 
+               <hi>Gabriel,</hi> imprudently flying in a full career, through it; and that therefore now it ſhines dimly. The <hi>Thalmu<g ref="char:EOLhyphen"/>dists</hi>
+               <note place="margin">Talmudiſtae in Talmud.</note> have likewiſe treſpaſſed in this kinde.</p>
+            <p>Truely, Had there been knowing and prudent <hi>Astro<g ref="char:EOLhyphen"/>logers</hi> in <hi>Arabia,</hi> when <hi>Mahomet</hi> was now ariſing or aſcending in his <hi>Horizon,</hi> as there were at other times; they might have happily withſtood and ſuppreſs'd him, and prevented this horrible inundation of error and blaſphemy, wherewith many gay parts of the World have been overwhelmed by him. But <hi>Arabia Felix</hi> was not then ſo happy. The <hi>Mahumetan Aſtrologers Al<g ref="char:EOLhyphen"/>farabius, Albumazar, Haly,</hi> were engaged: <hi>Averroes</hi> re<g ref="char:EOLhyphen"/>coil'd: <hi>The like proportionably</hi> may be ſaid of the <hi>Thal<g ref="char:EOLhyphen"/>mudiſts.</hi> God complaineth, and threatneth: <hi>My peo<g ref="char:EOLhyphen"/>ple</hi>
+               <note place="margin">Hoſ. 4. 6.</note> 
+               <hi>are deſtroyed for lack of knowledge: becauſe thou haſt rejected knowledge, I will reject thee.</hi> This is cleer: other proofs will engage me longer.</p>
+            <p>Fourthly, I prove it by <hi>Scripture. The heavens declare</hi>
+               <note place="margin">Pſal. 19. 1.</note> 
+               <hi>the glory of God, and the firmament ſheweth his handy-work. Day unto day uttereth ſpeech, and night unto night ſheweth</hi>
+               <note place="margin">verſ. 2.</note> 
+               <hi>knowledge.</hi> The <hi>Latine</hi> ſanctifieth: <hi>Opera manuum ejus an<g ref="char:EOLhyphen"/>nunciat</hi>
+               <note place="margin">Edit. vulgata.</note> 
+               <hi>firmamentum: The firmament, wherein the fixed Stars are, annunciates and tells the works of his hands, to ſome that piouſly and ſeriouſly attend to ſuch telling or annun<g ref="char:EOLhyphen"/>tiation.</hi> And afterwards: <hi>Nox nocti indicat ſcientiam: One night ſhews and reads a Science to another. Sience</hi> here reflects upon ſuch as are capable of it, and acquire <hi>it by the multiplication of agreeable Acts:</hi> who comparing <hi>night</hi> with <hi>night,</hi> and the <hi>heavenly cauſes</hi> with their <hi>ef<g ref="char:EOLhyphen"/>fects,</hi> imbibe the <hi>Sience</hi> of <hi>Astrology;</hi> and who, the more they know of <hi>night</hi> and <hi>night,</hi> and of the <hi>connexion</hi> betwixt the <hi>cauſes</hi> and their <hi>effects,</hi> the more admire God in his Works, and the more declare God and his Works to others: adding to the <hi>thing done,</hi> the very<note place="margin">Judg. 5. 20.</note> 
+               <hi>manner of its doing;</hi> as, how <hi>the Stars in their courſes fought againſt Siſera.</hi>
+            </p>
+            <p>The <hi>Platoniſts</hi> imagin'd, the Heavens to have been <hi>animate;</hi> and that the Sun, Moon and Stars were fiery,
+<pb n="14" facs="tcp:118098:13"/> and were therefore nouriſhed and fed with vapours; fire wanting and requiring its food and nouriſhment. The <hi>Ariſtotelians</hi> or <hi>Peripateticks</hi> allowed <hi>Intelligences</hi> of their own making, to turn and whirl about the <hi>Ce<g ref="char:EOLhyphen"/>lestial Orbs;</hi> and to be one with them, not by <hi>compoſi<g ref="char:EOLhyphen"/>tion,</hi> but by <hi>aggregation.</hi> Others out of <hi>Zeno</hi>'s Porch, threw their judgements here and there: He that will admire and <hi>declare</hi> God in conformity to the Truth of his <hi>Creation,</hi> muſt conſult with <hi>Scripture</hi> and <hi>Aſtro<g ref="char:EOLhyphen"/>logy.</hi>
+            </p>
+            <p>In Chriſtian earneſt: ſuch a multitude of <hi>Heavens, Stars, Planets,</hi> moving ſo ſwiftly, ſo contrarily, ſo neer<g ref="char:EOLhyphen"/>ly the one to the other, and with ſuch continual vari<g ref="char:EOLhyphen"/>ery of <hi>Effects;</hi> the <hi>Order, Concord, Subordination,</hi> and Wonderfulneſs, is, notwithſtanding ſuch, that in <hi>declar<g ref="char:EOLhyphen"/>ing the glory of God,</hi> they very much out-ſtrip all <hi>inferiour Things:</hi> and therefore they whoſe employments it is, to behold this <hi>Order, Concord, Subordination,</hi> and <hi>effectual Operation</hi> more neerly, are called to magnifie God in his Works, more tranſcendently then others who do not: <hi>Job</hi> admiring God in this <hi>Crder, Concord, Subordi<g ref="char:EOLhyphen"/>nation,</hi> and <hi>efficacy,</hi> cries out without a loud voice: <hi>Where is God my maker, who giveth ſongs in the night?</hi> The<note place="margin">Job 35. 10.</note> 
+               <hi>Latine</hi> prefers: <hi>Ubi eſt Deus, qui fecit me: qui ded it car<g ref="char:EOLhyphen"/>mina</hi>
+               <note place="margin">Edit. vulg.</note> 
+               <hi>in nocte? Where is God, who hath made me: who gave verſes in the night?</hi> He is more explicite in another place according to the vulgar <hi>Latine: Quis enarrabat Coe<g ref="char:EOLhyphen"/>lorum</hi>
+               <note place="margin">Job 38. 37. In<g ref="char:EOLhyphen"/>terp. vulgat.</note> 
+               <hi>rationem, &amp; concentum</hi> (Hebr. <hi>Nabla) Coeli quis dormire faciet? Who will declare the ſtate of the Heavens, and who will make the melody of the Heaven to ſleep?</hi> He<note place="margin">See Cenſorinus de die natali, cap. 13. Cic. in ſomnio Scipionis. S. Aug. Ep. 28. ad S. Hier. Leo Caſtr. in Iſaiae cap. 40. verſ. 26. Georg. Venet. in Harm.</note> ſeems to ſpeak after a <hi>five-years ſilence,</hi> as one of <hi>Pytha<g ref="char:EOLhyphen"/>goras</hi> his Scholars, who thought the Heavens to have been melodious in their <hi>motions:</hi> and that men are deaf to the Muſick by continual aſſuefaction, as they who dwell <hi>ad Nili Catadupa, where Nilus hath a terrible fall;</hi> as is obſerved by <hi>Cicero.</hi> In good truth Saint <hi>Austin</hi> receives with embraces, the Doctrine of proper <hi>Muſick in the Heavens.</hi> So doth <hi>Leo Caſtrus:</hi> and ſo <hi>Georgius
+<pb n="15" facs="tcp:118098:13"/> Venetus.</hi> And Reaſon is favourable. Becauſe a ſound is cauſed not only by the confrication of the Air, but alſo by the confrication of all reſiſting <hi>Bodies. Philo</hi> the Jew<note place="margin">Philo Jud. lib. de Somniis.</note> in his <hi>Book of Dreams,</hi> dreams it out, That the Muſick and Harmony of the <hi>heavenly Bodies</hi> and <hi>Orbs,</hi> ſerves in the place of Meat unto thoſe who hear it; and that <hi>Moſes</hi> was fed therewith in his long-faſting. But <hi>Ariſtotle</hi> and the <hi>Philoſophers</hi> his <hi>Followers,</hi> reject all this Doctrine as<note place="margin">Ariſt. lib. 2. de Calo.</note> out of tune. And it is moſt faſhionable to Reaſon, That <hi>Job</hi> by Muſick and Melody, underſtands the <hi>Concord,</hi> and moſt <hi>ordinate motions</hi> and courſes of the Heavens, toge<g ref="char:EOLhyphen"/>ther with the ſweet compliance betwixt the <hi>cauſes</hi> and their <hi>effects.</hi> Wherefore <hi>Plato</hi> is opinionated, Eyes were therefore chiefly given to us, that ſeeing the moſt regular<note place="margin">Plat. in Tim. co.</note> 
+               <hi>motions</hi> of the <hi>heavenly bodies,</hi> we might traduce them to the diſcipline of our lives, and to the correction of our wandring and <hi>erratical motions.</hi> And infallibly the rea<g ref="char:EOLhyphen"/>ſonable Soul returns and reduces all the Creatures to their <hi>firſt Principle,</hi> God, by her admiring God in them, and her praiſing God for them: and the more know<g ref="char:EOLhyphen"/>ledge we have of the Things for which we praiſe God, the more we praiſe him with <hi>underſtanding.</hi>
+            </p>
+            <p>I prove it by Scripture the ſecond time. <hi>He appointed</hi>
+               <note place="margin">Pſal. 104. 19.</note> 
+               <hi>the Moon for ſeaſons.</hi> This place (being like a Star, which is <hi>denſior pars ſui orbis: the more thick and lucid part of its Orb</hi>) is excellently co-incident with my Text. Aſſured<g ref="char:EOLhyphen"/>ly: By how much the Moon is better known, by ſo much are the Seaſons more ſeaſonable, and by ſo much is this Appointment, and the Author of it, more ad<g ref="char:EOLhyphen"/>mired. For it is like a Rock in Divinity: He moſt ad<g ref="char:EOLhyphen"/>mires and praiſes God, (<hi>caeteris paribus: if other things concur</hi>) that ſees not the Things onely, but alſo the Reaſons of them.</p>
+            <p>We all ſee the Moon afar off, and the Variations of it. But he who ſees, that the Moon being in the laſt, leaſt, and loweſt Orb, runs it in a ſhort time, and there<g ref="char:EOLhyphen"/>fore, looks diverſly upon the Sun, and varies in the borrowing of its light, being for this cauſe now horned,
+<pb n="16" facs="tcp:118098:14"/> now half-full, now full and whole; ſees more of God, and of his wondrous Works and Appointments, then the Pygmies of men do; and is a kinde of a Giant, or rather, another <hi>Atlas.</hi>
+            </p>
+            <p>We all ſee, That the Moon ſhines to us, and keeps her Seaſons. But he who beholds, that, although it ſhines to us, it ſhines not upwards; as being not illu<g ref="char:EOLhyphen"/>minated in the ſuperiour part, but onely inferiourly; doth ſee more neerly and cleerly, That the <hi>heavenly Bo<g ref="char:EOLhyphen"/>dies,</hi> although ſo high, trim, and glorious, were made for us, low Creatures, and for our uſe.</p>
+            <p>We all ſee the Moon in the full, and when ſhe moſt ſhines. But he who ſees in the original, that the Moon does then ſhine moſt, when it is moſt diſtant and remote from the Sun; and that, when it comes neer to the Sun, it is obſcured; diſcovers more of God's Appointment, and is more furniſhed with <hi>harm<g ref="char:EOLhyphen"/>leſs, uſeful,</hi> and <hi>pious conſiderations,</hi> then down-looking perſons.</p>
+            <p>Finally, We all ſee, That the Moon receives many Changes: But he who findes, according co <hi>Hippocrates</hi> and <hi>Galen;</hi> that the Moon, becauſe it receives many<note place="margin">Hippocr. lib. de Judiciis infir<g ref="char:EOLhyphen"/>mitatum. Galen initio Dierum Criticorum.</note> Changes and <hi>Eclipſes,</hi> inclines men upon whom it hath <hi>influence,</hi> to be unconſtant and unſtable, and to rejoyce in various Studies and Things, will have more cauſe to pull up his Heart into one, and to ſtrive againſt the Moon and its <hi>influence,</hi> by the help of holy <hi>grace,</hi> which is more neer, more precious, and more power<g ref="char:EOLhyphen"/>ful then the Sun, Moon and all the Stars; and is able to remove the <hi>Selenites</hi> out of his Heart.</p>
+            <p>Saint <hi>Bonaventure</hi> Iluſtrates this Truth: <hi>Frequentèr Aſtrologi vera praedicunt, maximè circa Homines animali<g ref="char:EOLhyphen"/>tèr</hi>
+               <note place="margin">See Plin. lib. 36. cap. 10. S. Bo<g ref="char:EOLhyphen"/>navent in 4 Sent. Diſt. 14. queſt. 3. num. 80</note> 
+               <hi>viventes: circa verò ſpiritualitèr ſapientes qui dominan<g ref="char:EOLhyphen"/>tur paſſionibus, pauca poſſunt vera praedicere: Hic (ut ait Ptolomaeus) ſapiens dominabitur Aſtris. The Aſtrologers oftentimes fore-tell true things, eſpecially concerning men that live carnally: But concerning men ſpiritually-wiſe, who govern their paſſions, they can fore-tell but few Truths:
+<pb n="17" facs="tcp:118098:14"/> This wiſe man (as Ptolomeus ſayes) will exerciſe dominion over the Stars.</hi> But with his leave, even then they fore<g ref="char:EOLhyphen"/>tell Truth, according to <hi>Nature,</hi> though not anſwera<g ref="char:EOLhyphen"/>bly to <hi>Grace. The History of</hi> Socrates <hi>and</hi> Zopyrus is found on every hedge. <hi>Bugufarus</hi> himſelf, conſents in the <hi>ſubſtantials:</hi> Homo ſapiens &amp; juvat &amp; impedit Coe<g ref="char:EOLhyphen"/>leſtem<note place="margin">Auguſ. in Com<g ref="char:EOLhyphen"/>men. ſuper C<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>n<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> loquium Pto<g ref="char:EOLhyphen"/>lomaei.</note> effectum, ex virtute ſapientiae quae eſt in eo. <hi>A wiſe man both helps and hinders the heavenly effects, by vertue of the wiſdom which is in him.</hi>
+            </p>
+            <p>Fifthly, I prove it upon this account, that Scripture cannot be rightly underſtood without enquiry made into <hi>Astrology.</hi> It is written in the Prophet <hi>Amos,</hi> where<note place="margin">Amos 5. 26.</note> 
+               <hi>Moloch</hi> is introduced: <hi>the Star of your God, which ye made to your ſelves.</hi> It is neceſſary, for the right and full underſtanding of this place, that it be known what Star this was, what Star in Heaven it reſembled, and what likewiſe is the nature, power and work of that Star. It was a Jewel made Star-wiſe, and gloriouſly ſet in the forehead of the Idol <hi>Moloch.</hi> It reſembled the Star called <hi>Lucifer.</hi> Which Star is alſo named in the Prophet <hi>Jeremy,</hi> (and here alſo there is want of ſuc<g ref="char:EOLhyphen"/>cour<note place="margin">Jer 7. 18.</note> from <hi>Astrology,) The Queen of Heaven:</hi> The Verſe runs: <hi>The children gather wood, and the fathers kindle the fire, and the women knead their dough, to make cakes to the queen of heaven.</hi>
+            </p>
+            <p>
+               <hi>Lucifer,</hi> if we conſider it onely as a viſible Star in Heaven, is, as Saint <hi>Baſil</hi> deſcribes it, <gap reason="foreign" resp="#OXF">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>the</hi>
+               <note place="margin">S. Baſil. Hom. 2. in Hexam.</note> 
+               <hi>faireſt of all Stars.</hi> And although the <hi>Lights</hi> which are neereſt to the Earth, have, in reſpect of their neerneſs to it, a great <hi>influence</hi> upon it: yet the fair and great <hi>Lights,</hi> in regard of their greatneſs and fairneſs, ſupply their own wants, as being remote; and their <hi>influences</hi> are more noble.</p>
+            <p>Yea, the <hi>influences</hi> of <hi>Lucifer,</hi> are ſo eminently no<g ref="char:EOLhyphen"/>ble and powerful, that Saint <hi>Peter,</hi> (certainly for ſome excellent reaſon) calls <hi>divine Grace,</hi> (that unites us with God) <hi>Lucifer,</hi> in theſe words: <hi>Until the day dawn, and</hi>
+               <note place="margin">2 Pet. 1. 19. Edit. Lat.</note> 
+               <hi>the day-ſtar ariſe in your hearts.</hi> The <hi>Latine</hi> offereth: <hi>Do<g ref="char:EOLhyphen"/>nec
+<pb n="18" facs="tcp:118098:15"/> dies eluceſcat, &amp; Lucifer oriatur in cordibus veſtris: Until the day begin to ſhine, and Lucifer ariſe in your hearts.</hi> The <hi>Greek</hi> preſents the later part: <gap reason="foreign" resp="#OXF">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>and Lucifer ariſe from the east in your</hi>
+               <note place="margin">Text Graec. Interp. Syt.</note> 
+               <hi>hearts.</hi> (The <hi>Syriack</hi> leaves <hi>Lucifer</hi> and takes the <hi>Sun.</hi>) The likeneſs of power betwixt <hi>Grace</hi> and <hi>Lucifer,</hi> is manifold: they both move to <hi>cheerfulneſs</hi> and <hi>heroical performance:</hi> they move both to the love of <hi>light,</hi> and cauſe in us a <hi>horrour of darkneſs:</hi> they both move to the diſlike of all baſe and ignoble <hi>actions,</hi> &amp;c. Neither is this Text (ye ſee) graſp'd and comprehended, if <hi>Aſtro<g ref="char:EOLhyphen"/>logy</hi> be miſſing.</p>
+            <p>In this conſideration, Saint <hi>Auſtin</hi> expounding a place in <hi>Job,</hi> where the <hi>ſacred Text</hi> mentions the <hi>ſweet influ<g ref="char:EOLhyphen"/>ences</hi> of the <hi>Pleiades,</hi> and <hi>Orion;</hi> ſaith: <hi>Nam &amp; Aſtro<g ref="char:EOLhyphen"/>logia</hi>
+               <note place="margin">Job 38. 31. <hi>S. Aug. in illud Jobi.</hi>
+               </note> 
+               <hi>perſcrutanda est, ad cognoſcendum proprietates iſtorum ſyderum, ut hunc locum intelligere poſſimus. We muſt dili<g ref="char:EOLhyphen"/>gently ſearch into Aſtrology, that we may know the properties of theſe Stars, and underſtand the place.</hi>
+            </p>
+            <p>Once more I prove it, from this Head and Source: It is propos'd by the <hi>Eaſtern Magi: We have ſeen his</hi>
+               <note place="margin">Mat. 2. 2.</note> 
+               <hi>Star in the Eaſt, and we are come to worſhip him.</hi> It fol<g ref="char:EOLhyphen"/>lows in due time: <hi>Lo, the Star which they ſaw in the Eaſt</hi>
+               <note place="margin">verſ. 9.</note> 
+               <hi>went before them, till it came, and ſtood over the place where the young child was.</hi> Theſe Texts have been a Rock of offence, and ſtumbling-block, when aſſaulted by veſſels empty of <hi>Aſtrology. Cardinal Bellarmine,</hi> ſpeaking of<note place="margin">Bellarm. lib. de Scriptorib. Ec<g ref="char:EOLhyphen"/>cleſiaſticis. See Sixtus Se<g ref="char:EOLhyphen"/>nenſis lib. 5. Bi<g ref="char:EOLhyphen"/>bliothecae ſan<g ref="char:EOLhyphen"/>ctae, annotat. 15. &amp; 81. &amp; lib. 6. annotat. 10.</note> 
+               <hi>Petrus ab Alliaco, Cardinal</hi> and <hi>Archbiſhop of Cambray,</hi> atteſteth: <hi>Unum eſt, in quo reprehenditur hic Auctor, quòd videlicèt ſenſiſſe videatur, Chriſti nativitatem praenoſci potuiſſe ex genethliacis obſervationibus, at<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> ad hoc adduxerit apparitionem Stellae, quae apparuit Magis. There is one thing, for which this Author is reprehended; that is, becauſe he ſoemed to have thought</hi> (he ſpeaks tenderly, in regard he was his brother <hi>Cardinal) that Chriſt's Nativity could be foreknown from genethliacal obſervations; and to the proof of this, brought the apparition of the Star which appeared to the Magi.</hi> If <hi>Petrus ab Alliaco</hi> had in the leaſt manner,
+<pb n="19" facs="tcp:118098:15"/> been refreſhed from the liquid Fountains of <hi>Aſtrology,</hi> he might have found with eaſe, that this <hi>Star</hi> of the <hi>Eaſt,</hi> was not of the Stars in Heaven, but one moved in the Air, and formed for this purpoſe; that it might with more aptneſs, direct the <hi>Wiſe-men,</hi> and deſign the place where the Babe was. He might have known likewiſe, had he been a <hi>Cardinal</hi> in Learning, that a heavenly Star could not be widdow'd from her Orb, nor have room to move ſo neer the Earth; and that the ſenſe of the Text, <hi>the Stars ſhall fall from Heaven,</hi> riſes<note place="margin">Mat. 24, 29.</note> 
+               <hi>above the letter:</hi> and that a Star amongſt the Stars, could not in a proper ſenſe, be called <hi>Chriſt<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>s Star.</hi> Ignorance of <hi>Aſtrology</hi> ingulf'd <hi>Petrus ab Alliaco</hi> almoſt into as great a depth of madneſs, as that into which <hi>Cardanus</hi> was plung'd; who pry'd into the <hi>Horoſcope of Chriſt;</hi> and taking his guidance from the poſition of the Stars in his Nativity, and from certain finiſter <hi>Aſpects,</hi> born when Chriſt was born, foretold in a kinde, it was his fate to die upon the Croſs. I will not be preſumptuous; and ſay, that <hi>Cardanus</hi> was ignorant of <hi>Aſtrology,</hi> but I will take heart to ſay, that his Judgement upon this <hi>Scheme</hi> was over-curious; and that all <hi>Sciences</hi> have their modeſt limits, as they are hand maids to Diviuity.</p>
+            <p>
+               <hi>Petrus ab Alliaco</hi> ſhould have conſidered, that the Stars go in a brotherly manner from Eaſt to Weſt: whenas this Star travelled alone from Eaſt to South; that this Star maintained its light in the Day, the Sun looking on it, and ſhining; that it withdrew, and re<g ref="char:EOLhyphen"/>turned, as the buſineſs moved, upon which it waited; and that it walk'd in the lower Region of the Air. And verily, God leading the <hi>Magi</hi> or <hi>Wiſe-men</hi> to Chriſt by a <hi>Star,</hi> as moſt attemperable to them; juſtified their <hi>Obſervation</hi> and uſe <hi>of the Stars:</hi> as likewiſe, he directed the Shepherds to Chriſt, by the <hi>Apparition of Angels;</hi> the <hi>Apparition of Angels</hi> being common and holy to the Jews.</p>
+            <p>Let me affix here: thoſe Texts in the Goſpel, which treat of lunatick perſons, cannot be fathomed, if the<note place="margin">Mat. 4. 24.</note>
+               <pb n="20" facs="tcp:118098:16"/> knowledge of <hi>Aſtrology</hi> be ſecluded. For, as <hi>Aquinas</hi>
+               <note place="margin">Mat. 17. 15. <hi>D. Tho. p. 1. qu. 115. Art. 5. Arg. 1.</hi>
+               </note> wiſely diſcovers: <hi>Daemones ſecundùm certa augmenta Lunae aliquos homines vexant: qui &amp; propter hoc lunatici dicuntur. The Devils do vex ſome poſſeſſed perſons, accor<g ref="char:EOLhyphen"/>ding to certain augmentations of the Moon, who there<g ref="char:EOLhyphen"/>fore are called lunatick.</hi> And this they did for two Rea<g ref="char:EOLhyphen"/>ſons: firſt, that they might throw a diſhonour upon the Moon as the Creature of God. This Reaſon is own'd by Saint <hi>Hierom,</hi> and Saint <hi>Chryſoſtom.</hi> Second<g ref="char:EOLhyphen"/>ly,<note place="margin">S. Hierom. ad 4. cap. Matth. S. Chryſoſt. hom. 58. in Matth. Ariſt. lib. de ſomn. &amp; vigil. cap. 5.</note> Becauſe the Devils cannot work but by the <hi>mediation</hi> of natural things and vertues; and the Brain being the moiſteſt part of Man's Body, according to <hi>Ariſtotle,</hi> and therefore eſpecially, ſubjected to the Operation of the Moon, which is <hi>Domina humorum &amp; humidorum: the Lady and Governeſs of humours and humid things;</hi> the Devils moleſt and trouble the Fancy, in the ſecret times, wherein the Moon and the Brain moſt concur in the application of Active to Paſſive, and the Brain is moſt diſpoſed to receive the impreſſions and <hi>influences</hi> of the Moon.</p>
+            <p>Sixthly, I prove it: Becauſe the knowledge of <hi>A<g ref="char:EOLhyphen"/>ſtrology,</hi> adminiſters neceſſary help to the <hi>Body of Di<g ref="char:EOLhyphen"/>vinity;</hi> and very much illuſtrates, yea, confirms the chief and bottom-Doctrines of it: there being a ſtrict <hi>Concatenation,</hi> as in <hi>Vertues</hi> and <hi>Sciences,</hi> ſo in the <hi>Works</hi> and <hi>Ways of God</hi> amongſt themſelves and with them.</p>
+            <p>That part of <hi>divine providence,</hi> which we call <hi>Election</hi> and <hi>Predeſtination,</hi> although it be efficacious, doth not altogether infringe humane Liberty; becauſe it onely determines <hi>in ſenſu compoſito, in a compounded ſenſe;</hi> as ſuppoſing the <hi>compoſition of our concurſe with the decree of God;</hi> even then when to divide, falls into the <hi>may</hi> and <hi>can</hi> of humane Arbitrement. True it is, if the <hi>Love of friendſhip</hi> in God, (which he can exerciſe onely to<g ref="char:EOLhyphen"/>wards reaſonable Creatures, whereas others are not capable of <hi>elevation</hi> ſufficient to ſuch <hi>friendſhip</hi>) or the <hi>benevolence</hi> of God be <hi>efficacious affectively,</hi> it is alſo
+<pb n="21" facs="tcp:118098:16"/> always <hi>efficacious effectively:</hi> whatſoever the Reprobates can do with their <hi>helps</hi> either <hi>phyſically</hi> or <hi>morally.</hi> Yet <hi>Liberty</hi> is not impeded, becauſe the nigheſt power, which is the will of man, being the power from which <hi>Liberty</hi> takes its eſſence and appellation, is alwayes in<g ref="char:EOLhyphen"/>different; even when the power, to which it is ſubor<g ref="char:EOLhyphen"/>dinated, moves this way or that way by predeterminati<g ref="char:EOLhyphen"/>on. (The Confirmation or Illuſtration deſcends from the Heavens.) And as that which the <hi>Philoſophers</hi> and <hi>Aſtro<g ref="char:EOLhyphen"/>logers</hi> call the <hi>ſupreme Heaven,</hi> ſo draws with it, all the in<g ref="char:EOLhyphen"/>feriour <hi>Orbs,</hi> that it neither breaks, ſtops, not interrupts their <hi>proper motions</hi> and <hi>influences:</hi> ſo God almighty draws all Things after his eternal Decree, and yet, neither ab<g ref="char:EOLhyphen"/>rogates, nor infringes the <hi>peculiar force, motion, influence,</hi> or <hi>oppoſition</hi> of any Thing. Yea: this Divine-like and ſupereminent kinde of <hi>motion,</hi> was betrothed to the <hi>ſupreme Heaven,</hi> that it might be a moſt high Emblem of the Divine Operation in reſpect of reaſonable and other Creatures. God ſaid unto <hi>Abram: I am the Almighty</hi>
+               <note place="margin">Gen. 17. 1.</note> 
+               <hi>God: walk before me, and be thou perfect.</hi> Which opens it ſelf to receive this Paraphraſe: <hi>I move all by my power, at my pleaſure: But I leave thee as a free agent; and there<g ref="char:EOLhyphen"/>fore I lay my commandments upon thee: walk before me, and be thou perfect.</hi>
+            </p>
+            <p>If we remove this Theological Explication, aſſiſted and ſeconded with its Aſtrological Illuſtration or Con<g ref="char:EOLhyphen"/>firmation, from this grand Matter in Divinity; the re<g ref="char:EOLhyphen"/>ſult, from God's abſolute and irreſiſtible <hi>Decree,</hi> (as al<g ref="char:EOLhyphen"/>ſo from that unchriſtian <hi>poſition,</hi> which ſettles an irreſiſti<g ref="char:EOLhyphen"/>ble, and compelling <hi>power,</hi> and <hi>influence</hi> of the Hea<g ref="char:EOLhyphen"/>vens,) will be, that <hi>God is the Author of ſin.</hi> For: <hi>Opera magis ad imperantem &amp; congentem pertinent, quàm ad exe<g ref="char:EOLhyphen"/>quentem: Works pertain more to him that commands and com<g ref="char:EOLhyphen"/>pels, then to him that executes.</hi>
+            </p>
+            <p>But as <hi>Fulgentius,</hi> who lived and ſhone in a dark age, argues excellently: <hi>Deus non est Author ejus, cujus est</hi>
+               <note place="margin">S. Fulgent. lib. 1. ad in omnium Regem, cap. 19.</note> 
+               <hi>
+                  <g ref="char:V">Ʋ</g>ltor: God is not the Author of that, of the which he is the Revenger.</hi> And Reaſon is wholly ours: For if God
+<pb n="22" facs="tcp:118098:17"/> were the Author of ſin, he were not <hi>ſummè Bonus, Good in the chiefeſt manner.</hi> The Conſequence hath <hi>Bones</hi> and <hi>ſinews,</hi> Ex loco Cauſarum &amp; effectorum, <hi>from the Cauſes and their Effects:</hi> betwixt which, there muſt be ſome kinde of proportion and ſimilitude; which are not betwixt, <hi>Ens ſummè bonum &amp; pecatum, a Thing good in the chieſeſt manner, and ſin.</hi> Becauſe ſin, as ſuch, hath no <hi>goodneſs</hi> in it ſelf, neither hath it <hi>exiſtence,</hi> ut peccatum, <hi>as ſin;</hi> ſed ut Ens, <hi>but as a Thing.</hi> It would likewiſe follow, that contradictory Propoſitions are both true: theſe Aſſertions containing an implicite Contradiction; <hi>to be God,</hi> and <hi>not to be moſt excellently Good;</hi> that is, if we ſpeak out and explicitely, <hi>not to be God.</hi> And as the Author of ſin cannot be good, ſo neither can he be holy, juſt, or the Judge of the World: which are God's eſſential properties. Saint <hi>Baſil</hi> is the Author of a Homily beyond the ordinary level: wherein he throws this <hi>thunderbolt:</hi> Tantundem eſt,<note place="margin">S. Baſil Hom. Quod Deus non ſit Author pec<g ref="char:EOLhyphen"/>cati.</note> Deum aſſerere eſſe Authorem peccati, &amp; negare eſſe Deum. <hi>It is as much to aſſert God to be the Author of ſin, as to deny him to be God.</hi> Yea: He that conſequentially makes God the <hi>Author of ſin,</hi> makes our moſt holy, moſt pure, and moſt bleſſed Lord God, and gracious <hi>Father of mercies,</hi> worſe then then the Devil: Becauſe<note place="margin">2 Cor. 1. 3.</note> the Devil tempteth onely, and perſwadeth to ſin, and all his motions may be reſiſted and caſt off: But God, as the ſpurious Teachers and Carcaſſes of Divines teach, willeth and procureth ſin by a powerful, effectu<g ref="char:EOLhyphen"/>al, and irreſiſtible Decree; even as the degenera<g ref="char:EOLhyphen"/>ting and ſpurious <hi>Aſtrologer</hi> forceth our wills to it by an inviolable <hi>influence,</hi> to the which (he ſaith) God hath neceſſarily obliged the Heavens. And theſe all avouch againſt the Axiom, <hi>the will to be compelled.</hi> But it is moſt agreeable to the <hi>Secret of Symmetry,</hi> That they who have ſinned away all Chriſtian Bowels, and are the high and mighty <hi>Scandalizers of Men,</hi> ſhould highly <hi>ſcandalize the Almighty God</hi> alſo.</p>
+            <p>I prove again, That <hi>Astrology</hi> is an able aſſiſtant to
+<pb n="23" facs="tcp:118098:17"/> the moſt abſtruſe part of Divinity; as being admirably proportioned to it, <hi>in materiâ circa quam, in the matter concerning which it</hi> in part <hi>diſcourſeth.</hi> As appears alſo in a <hi>matter</hi> depending upon the former.</p>
+            <p>We may avoid all ſins, <hi>potestate antecedenti, by an an<g ref="char:EOLhyphen"/>tecedent power.</hi> The antecedent power is a power, having whatſoever is antecedently neceſſary to opera<g ref="char:EOLhyphen"/>tion, on our part, if the will conſenteth; or if the Will will not conſent, whatſoever is neceſſary to fore<g ref="char:EOLhyphen"/>ſtall and prevent operation. But we cannot avoid all ſins <hi>poteſtate conſequenti, by a conſequent and efficacious</hi>
+               <note place="margin">S. Aug. lib. 3. de lib. Arbitr. c. 17.</note> 
+               <hi>power.</hi> It is the received Maxime of Saint <hi>Auſtin:</hi> Nemo peccat in eo quod vitare non poteſt. <hi>No man ſins in that which he cannot avoid.</hi> That is: <hi>which he cannot avoid,</hi> either at firſt or laſt; either by precluding the way to ſin, or by not yielding and conſenting when the temptation maketh its battery. Neither doth the <hi>preſcience</hi> of God, impoſe a neceſſity upon the Things fore-known by him. For: God fore-knows his own Acts, and yet he is a moſt free Agent. And that the Things ſo fore-known, cannot but happen in a manner as they are fore-known; the reaſon is, becauſe God fore-knowing them, doth not (if we ſpeak in rigour) fore-know them, but looks upon them as done and preſent; all things being preſent to him in eternity, which is <hi>Nunc ſtans, a ſtanding and immoveable Now.</hi> And when a Thing is now done and preſent, it cannot but be; yea, although otherwiſe compared to its <hi>cauſes,</hi> it is moſt contingent: this being onely a <hi>hypothetical neceſſity,</hi> not excluding <hi>contingency.</hi> So that God <hi>is moſt pure and holy, and acquitted from being entangled in our errors.</hi>
+            </p>
+            <p>Students in <hi>Aſtrology</hi> have the Concluſion, wherein all the vertue of the Premiſes lies couched, render'd again to them in the way, as they look up, and alſo in the <hi>heavenly Bodies. God is moſt pure, and holy,</hi> &amp;c. The ſupreme part of the Air, which is neereſt to the Hea<g ref="char:EOLhyphen"/>vens, is far from troubles and diſorders; it is not drawn
+<pb n="24" facs="tcp:118098:18"/> into the faction of the Clouds or middle Region; it is not forced into a Tempeſt; no Tumults or Commoti<g ref="char:EOLhyphen"/>ons are there. And if we aſcend above the Moon; the <hi>heavenly Bodies</hi> are all quiet, and incorruptible. In<g ref="char:EOLhyphen"/>deed, they act upon us, but they do not neceſſitate us. In a word: they act as their Maker acts; who doth not irreſiſtbly force our wills; but onely they put us to the trial, as God does, that we may conquer. A wiſe man repels their maligne <hi>influences,</hi> and maintains the Calm of the Heavens in his minde and Heart: even conſonantly to the Sentence of a very <hi>Stoick:</hi> Talis eſt<note place="margin">Seneca Ep. 59.</note> ſapientis animus, qualis Mundi ſtatus ſuper Lunam: ſem<g ref="char:EOLhyphen"/>pèr illic ferenum eſt: <hi>Such is the minde of a wiſe man, as the ſtate of the world above the Moon. It is always ſerene there.</hi> The Creſt and Spire of all, is: theſe <hi>heavenly Bodies</hi> refer us to look above them, and to call upon God for <hi>Grace,</hi> which out-acts Nature, the Stars, and whatſoever elſe acts in Man; and this alſo, is God's courſe in his <hi>permiſſions of temptation.</hi> The <hi>Old Teſta<g ref="char:EOLhyphen"/>ment</hi> begins: <hi>There is none holy as the Lord.</hi> And the<note place="margin">1 Sam. 2. 2.</note> 
+               <hi>New</hi> anſwers: <hi>Every good gift, and every perfect gift, is</hi>
+               <note place="margin">Jam. 1. 17.</note> 
+               <hi>from above, and cometh down from the Father of lights, with whom is no variaebleneſs, neither ſhadow of turning.</hi>
+            </p>
+            <p>Laſtly, I prove it: Becauſe the Objections raiſed againſt this enquiry, are meer bubbles, and of no firmneſs.</p>
+            <p>Firſt: Many Texts of Scripture are ſet in <hi>Battalia:</hi> which declare God's anger againſt <hi>Star-gazers,</hi> and the like. We muſt therefore enquire what was the practiſe of theſe unholy <hi>Star-gazers,</hi> againſt which holy Scripture<note place="margin">Iſa. 47. 13.</note> inveigheth.</p>
+            <p>I am ſo far <hi>Beroſus</hi> his Proſelyte, that I believe <hi>Zoro<g ref="char:EOLhyphen"/>aſtres</hi> to have been <hi>Cham,</hi> (ſo he is called in the <hi>Latin Bible</hi>) and that he was the Father of thoſe who per<g ref="char:EOLhyphen"/>verted the noble <hi>Science of Aſtrology:</hi> the foundation of which, together with ſome excellent kinde of ſu<g ref="char:EOLhyphen"/>perſtructure, were ſolid and clean as they were deliver'd by the <hi>Children of Seth.</hi> The new and wrong'd <hi>Aſtro<g ref="char:EOLhyphen"/>logy,</hi> was in proceſs of time, moſt diſſeminated in
+<pb n="25" facs="tcp:118098:18"/> 
+               <hi>Chaldea.</hi> To this the Fathers and Civil Laws, are di<g ref="char:EOLhyphen"/>ametrically oppoſite. The profeſſors of it, differed from the true <hi>Aſtrologers</hi> allied to the <hi>Children of Seth;</hi> firſt: Becauſe their Opinion was, That the <hi>influences</hi> of the Stars were irreſiſtible, and irreſiſtibly wrought even upon the Spirits and wills of Men. In which re<g ref="char:EOLhyphen"/>ſpect, ſome <hi>Councils (national</hi> and <hi>provincial</hi>) have de<g ref="char:EOLhyphen"/>clared againſt the <hi>Priſcillianiſts, Pagans,</hi> and certain <hi>Jews.</hi> One defines in ſhort, and anathematizes all <hi>Gain-ſayers:</hi> Si quis animas, &amp; corpora humana fata<g ref="char:EOLhyphen"/>libus<note place="margin">Concil. Braca<g ref="char:EOLhyphen"/>renſe, cap. 9. vide etiam c. 10</note> Stellis credit aſtringi, ſicut Pagani, &amp; Priſcillianus dixerunt, Anathema ſit. <hi>If any man believes, that the ſouls and bodies of men, are bound to the Stars acting fatally upon them, as the Pagans and Priſcillian have ſaid, let him be accurſed.</hi> The <hi>Council</hi> denies not, That the Stars act directly upon all <hi>inferiour Bodies,</hi> and by chance and indirectly upon the Souls of Men; as moving the <hi>hu<g ref="char:EOLhyphen"/>mours, organs,</hi> and parts, as it were, neer the ſoul, and by which it operates: Onely the <hi>Council</hi> eliminates fata<g ref="char:EOLhyphen"/>lity, that is, fatal neceſſity.</p>
+            <p>Another is more conglobate, under a <hi>Title</hi> ſuffi<g ref="char:EOLhyphen"/>ciently <hi>declarative:</hi> Aſſertio Fidei ejuſdem Con<g ref="char:EOLhyphen"/>cilii<note place="margin">Concil. Tolitan. primum.</note> contra Priſcillianiſtas: <hi>The Aſſertion of the Faith of the ſame Council againſt the Priſcillianiſts.</hi> And with an eye hither, it is noted, That the <hi>Astrologers</hi> in the Primitive Church, were vehement Oppoſers of Chriſtianity. Theſe brought and reſolved all into a <hi>Stoical</hi> and <hi>fatal neceſſity:</hi> and were at length the <hi>moving</hi> and <hi>impelling cauſes</hi> that men worſhipped the <hi>Sun, Moon, Planets,</hi> and <hi>all the hoſt of Heaven;</hi> as the prime cauſes of<note place="margin">
+                  <hi>See</hi> Jer. 8. 2.</note> all Things. From which worſhip, as moſt prophane, <hi>Job</hi> frees himſelf: <hi>If I beheld the Sun when it ſhined, or</hi>
+               <note place="margin">Job 31. 26.</note> 
+               <hi>the Moon walking in brightneſs: And my heart hath been</hi>
+               <note place="margin">verſ. 27.</note> 
+               <hi>ſecretly enticed, or my mouth hath kiſſed my hand: This alſo</hi>
+               <note place="margin">verſ. 28.</note> 
+               <hi>were an iniquity to be puniſhed by the Judge; for I ſhould have denied the God that is above.</hi> Kiſſing of the hand was <hi>a<g ref="char:EOLhyphen"/>doration</hi> or worſhip in thoſe times. Which was obſerved even towards Statues: The people not preſuming
+<pb n="26" facs="tcp:118098:19"/> through reverence to touch the Statues, kiſſed their hands in ſign of worſhip.</p>
+            <p>Secondly, Theſe <hi>Ignes fatui, fooliſh and ſeducing fires,</hi> differed from the true and high-born <hi>Aſtrologers:</hi> be<g ref="char:EOLhyphen"/>cauſe they aſcertain'd themſelves to the Devil, by a com<g ref="char:EOLhyphen"/>pact, explicit or implicit. It is a <hi>Theorem</hi> in the <hi>Ange<g ref="char:EOLhyphen"/>lical part of Divinity,</hi> Boni Spiritus non paciſcuntur, <hi>Good Spirits make no compacts.</hi> And therefore they had i<g ref="char:EOLhyphen"/>mages in humane form, compoſed by Diabolical Pre<g ref="char:EOLhyphen"/>ſcription, under certain <hi>Aſteriſms,</hi> or <hi>Poſitions of the Heavens,</hi> which gave Oracles and Anſwers. Theſe were called <hi>Theraphim;</hi> and had inſinuated themſelves amongſt the Jews. The word is frequent in the Old Teſtament. That theſe <hi>Theraphim</hi> did anſwer thoſe who conſulted them concerning future events; is apparent in the Prophet <hi>Ezekiel:</hi> where it is ſaid of the King of <hi>Babylon: He conſulted with Images:</hi> in the <hi>Hebrew</hi> it is<note place="margin">Ezek. 21. 21. Text Hebr. Zach. 10. 2. Text Hebr.</note> 
+               <hi>Theraphim:</hi> And in <hi>Zachary;</hi> where the Text affirms, <hi>The Idols have ſpoken vanity:</hi> the <hi>Hebrew</hi> allows the <hi>The<g ref="char:EOLhyphen"/>raphim.</hi> Wherefore the ſeventy Interpreters for <hi>Thera<g ref="char:EOLhyphen"/>phim</hi> caſt up <gap reason="foreign" resp="#OXF">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>manifeſtation;</hi> and <hi>Aquila,</hi> 
+               <gap reason="foreign" resp="#OXF">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>,<note place="margin">Sept.</note> 
+               <hi>illumination;</hi> being the very words whereby they inter<g ref="char:EOLhyphen"/>pret <hi>Urim. Aben-Ezra</hi> delivers, That the <hi>Theraphim</hi>
+               <note place="margin">
+                  <hi>Aben-Ez. in cap.</hi> Gen. 31.</note> were Images of Men fitly made under certain <hi>Conſtella<g ref="char:EOLhyphen"/>tions,</hi> to receive the <hi>influx</hi> of the Heavens, and to work by it. And thus-minded was <hi>Lyranus:</hi> thus <hi>Arias</hi>
+               <note place="margin">Lyran. in Judic. cap. 17. Ar. Mont. &amp; Ca<g ref="char:EOLhyphen"/>iet. in idem ca<g ref="char:EOLhyphen"/>put Judic. Oleaſt. in Gen. cap. 31. operam dans verſui 19. R. Eliez. in capi<g ref="char:EOLhyphen"/>tulis, capitulo 36. Servius in Vir<g ref="char:EOLhyphen"/>gilium.</note> 
+               <hi>Montanus,</hi> and <hi>Caietan;</hi> thus <hi>Oleaſter. R. Eliezer</hi> tranſcends all theſe bounds; reporting that a man be<g ref="char:EOLhyphen"/>ing the firſt-born, was killed, his head cut off, and con<g ref="char:EOLhyphen"/>ſerved with Salt and Spices: Then they engraved the Name of a certain unclean <hi>Spirit</hi> upon a plate, which they hid under the Tongue: afterward ſetting the head in the wall, they ſet alſo burning Candles before it, and worſhipped it; and it ſpake to them. And theſe were his <hi>Theraphim.</hi> The <hi>Trojan Palladium,</hi> or <hi>Image of Pal<g ref="char:EOLhyphen"/>las,</hi> in her Temple at <hi>Troy,</hi> which moved its eyes, and the Spear in its hand; was thought to have received in the making, Heavens benign influx, And thus the peo<g ref="char:EOLhyphen"/>ple
+<pb n="27" facs="tcp:118098:19"/> were enſnared by theſe falſe-ſtamp'd <hi>Aſtrologers,</hi> in Idolatry. Such Images were diſhonourably called by an honourable name, <hi>Teleſmes;</hi> of which the Scripture hath other examples.</p>
+            <p>Thirdly, they differed from the true and <hi>Sethean A<g ref="char:EOLhyphen"/>ſtrologers:</hi> Becauſe they entertained open and common <hi>familiarity</hi> with the Devil; and by vertue of the <hi>ſecret compact,</hi> commanded him as they pleaſed. Such the Scri<g ref="char:EOLhyphen"/>pture ſhews to us in <hi>Exodus: Then Pharaoh alſo called the</hi>
+               <note place="margin">Exod. 7. 11.</note> 
+               <hi>wiſe-men and the Sorcerers.</hi> For <hi>Sorcerers,</hi> the <hi>Latin</hi> in<g ref="char:EOLhyphen"/>grafteth<note place="margin">Valgat. Inter. Onkelos Aq. Text Hebr.</note> 
+               <hi>maleficos, Witches;</hi> Onkelos, Magos, <hi>the Magi<g ref="char:EOLhyphen"/>tians: Aquila,</hi> 
+               <gap reason="foreign" resp="#OXF">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>the knowers and doers of hidden Things.</hi> The <hi>Hebrew word,</hi> Mecaſſephim, properly ſig<g ref="char:EOLhyphen"/>nifieth <hi>Jugglers,</hi> but is taken for any kinde of <hi>Magi,</hi> and is the word uſed in the <hi>Hebrew Goſpel.</hi> And whole Co<g ref="char:EOLhyphen"/>lonies of theſe <hi>Astrologers</hi> had been traduced out of<note place="margin">Evang. Hebr. Mat. 2. 1.</note> 
+               <hi>Chaldea</hi> into <hi>Egypt.</hi> The Princes of theſe, were <hi>Jannes</hi> and <hi>Jambres;</hi> as is cleer in Saint <hi>Paul. Palladius</hi> tells<note place="margin">2 Tim. 3. 8. Pallad. <hi>in vita B. Macarii.</hi>
+               </note> wonderful Things of the Sepulchre of theſe men: which, as he ſtorieth, was placed in a Garden, furniſhed by them when they lived, with all kindes of rare and rich Trees and Plants; they hoping, that after death, they ſhould alwayes life in it, as in a delicious <hi>Eden,</hi> and <hi>Gar<g ref="char:EOLhyphen"/>den of pleaſure.</hi> But, they being dead, the Garden was poſſeſſed and held by the Devils; and holy <hi>Macarius</hi> entred into it. I will proceed no further in the ſteps of <hi>Palladius,</hi> leſt I ſhould offend <hi>Melchior Canus,</hi> who ſorrowfully ſayes: <hi>Dolentèr, dico potius quàm contume<g ref="char:EOLhyphen"/>lioſe,</hi>
+               <note place="margin">Melch. Can. in Locis Theologic. lib. 11. cap. 6.</note> 
+               <hi>muliò à Laërtio, &amp; Ethnicis Hiſtoricis, Philoſopho<g ref="char:EOLhyphen"/>rum vitas ſeveriùs ſcriptas, quàm à Chriſtianis vitas ſancto<g ref="char:EOLhyphen"/>rum: I ſpeak it grievingly, rather then contumeliouſly; The lives of the Philoſophers are written more ſeverely by Laërtiue, and other heatheniſh Hiſtorians, then the lives of the Saints by Chriſtians.</hi>
+            </p>
+            <p>Theſe Earth-born <hi>Astrologers,</hi> were men altogether carnal and luſtful; and had therefore commonly a De<g ref="char:EOLhyphen"/>vil, (as oftentimes the <hi>ſimple</hi> and meer <hi>Sorcerer</hi> had) which was <hi>ventriloquus, a ſpeaker from the belly;</hi> and
+<pb n="28" facs="tcp:118098:20"/> were called <hi>Pythones;</hi> and in the <hi>Hebrew, Obot,</hi> from <hi>Ob,</hi> which ſignifies a <hi>bottle;</hi> becauſe the Devil ſpake with a <hi>confuſed voice,</hi> out of their belly, as out of a <hi>bottle.</hi> And the Devil ſeated himſelf in the belly, it being the ſeat of luſt, and the receptacle of meats &amp; drinks exciting to luſt: And he ſpoke with a hollow voice from their bel<g ref="char:EOLhyphen"/>lies, as from a bottle; to ſhew and confeſs againſt his will, that the bellies of theſe <hi>Astrologers,</hi> were their beſt and the moſt able Orators; and that nothing was to be found in the Devil, but hollowneſs and emptineſs.</p>
+            <p>Certainly, there ought no familiarity to be admitted by us, as bearing the Image of God, and as being re<g ref="char:EOLhyphen"/>turnable to God; with God's profeſſed Enemy the Devil. And therefore, our holy Saviour ſpeaks not to him, but with Rebukes, and thoſe in the way to Ejecti<g ref="char:EOLhyphen"/>on. Yea, he earneſtly wipes from himſelf the ſtain, wherewith he was defiled by the Jews, of dealing with the Devil, and uſing the power of his Name. Saint <hi>Matthew</hi> gives an ample example: <hi>There was brought</hi>
+               <note place="margin">Mat. 12. 22.</note> 
+               <hi>unto him one poſſeſſed with a devil, blinde and dumb; and he healed him: inſomuch, that the blinde and dumb both ſpake and ſaw. But when the Phariſees heard it, they ſaid,</hi>
+               <note place="margin">verſ. 24.</note> 
+               <hi>This fellow doth not caſt out devils but by Beelzebub the prince of the devils. And Jeſus knew their thoughts, and ſaid</hi>
+               <note place="margin">verſ. 25.</note> 
+               <hi>unto them, Every kingdom divided againſt it ſelf, is brought to deſolation: and every city or houſe, divided againſt it ſelf, ſhall not ſtand. And if Satan caſt out Satan, he is di<g ref="char:EOLhyphen"/>vided</hi>
+               <note place="margin">verſ. 26.</note> 
+               <hi>againſt himſelf; how ſhall then his kingdom ſtand? And if I by Beelzebub caſt out devils, by whom do your chil<g ref="char:EOLhyphen"/>dren</hi>
+               <note place="margin">verſ. 27.</note> 
+               <hi>caſt them out? therefore they ſhall be your judges. But if I caſt out devils by the Spirit of God, then the kingdom of</hi>
+               <note place="margin">verſ. 28.</note> 
+               <hi>God is come unto you,</hi> &amp;c. That theſe words may be underſtood to the bottom, and withſtand all Objecti<g ref="char:EOLhyphen"/>ons; and that no oppoſition may wedge-wiſe enter up<g ref="char:EOLhyphen"/>on them; we muſt deeply ſteep in our thoughts; That our Saviour here, proveth, he uſed not the help of the Devil: But how? not from <hi>ejection preciſely,</hi> but from ſuch an <hi>ejection;</hi> that is, which was not onely againſt
+<pb n="29" facs="tcp:118098:20"/> the will of the Devil ejected; but alſo againſt the will of the Prince, and conſequently, of the whole Society of Devils: which <hi>ejection</hi> truely bended and tended to the diſſoletion and ruine of the Devil's Kindom: as alſo he proved himſelf to be God, by the ejection of the <hi>Devil</hi> and <hi>Miracles,</hi> not effected and wrought for any end whatſoever, or <hi>indifferently,</hi> but onely to the end, that he might thereby prove himſelf to be God; where<g ref="char:EOLhyphen"/>as the like miracles might have been wrought by a meer man, aſſiſted with the power of God. It is a Truth of a great altitude, that one Devil may expel another two manner of wayes: either by force, becauſe he is ſuperi<g ref="char:EOLhyphen"/>our, and by conſequence, more powerful; or by bar<g ref="char:EOLhyphen"/>gain; for, thoſe active Agents, that they may the more involve and envelop man into ſin, and the reward of ſin, deſtruction, contrive amongſt themſelves, that one ſhall depart at the command of another. Moreover: The will of the <hi>inferiour Devil,</hi> againſt which he is ex<g ref="char:EOLhyphen"/>pelled by the <hi>ſuperiour</hi> in a <hi>forcible expulſion,</hi> is a <hi>velleity,</hi> as the <hi>School</hi> ſpeaks, or <hi>unefficacious will;</hi> becauſe ſuch <hi>expulſion</hi> is advantagious to the promotion of the De<g ref="char:EOLhyphen"/>vil's Kingdom. This happens when the <hi>Magitian</hi> ha<g ref="char:EOLhyphen"/>ving <hi>compacted</hi> with a <hi>ſuperiour Devil,</hi> hinders and ob<g ref="char:EOLhyphen"/>ſtructs the way to a <hi>Magitian,</hi> who hath compacted with<note place="margin">Mart. Del Rius lib. 2. Diſquiſit. mag. qu. 30. ſect. 1.</note> a <hi>Devil</hi> that is <hi>inferiour.</hi> Which <hi>Martinus del Rio</hi> learnedly ſets in the light. Our Saviour here takes up the <hi>Argument,</hi> which we call in <hi>Logick,</hi> Argumentum ad hominem: that is, <hi>when we ſubdue and convince a man out of his own ſayings or actions:</hi> there being then amongſt the Jews, <hi>Exorcists,</hi> who did <hi>adjure</hi> and <hi>expell Devils.</hi>
+            </p>
+            <p>No marvel now, if the holy Scripture and Word of God, of which, <hi>David</hi> hymneth, <hi>Thy word is very pure:</hi>
+               <note place="margin">Pſal. 119. 140.</note> 
+               <hi>declareth</hi> and <hi>defineth</hi> againſt this pernicious and peſti<g ref="char:EOLhyphen"/>ferous Rabble of Hell-born <hi>Astrologers.</hi> But we have a <hi>divine Rule,</hi> even in <hi>Ethicks:</hi> Abuſus non tollit uſum: <hi>The abuſe of a thing doth not antiquate or diſanul the right uſe thereof.</hi>
+            </p>
+            <p>Secondly: It is objected out of Saint <hi>Luke: Neither</hi>
+               <note place="margin">Luk. 12. 29.</note>
+               <pb n="30" facs="tcp:118098:21"/> 
+               <hi>be ye of doubtful minde.</hi> The <hi>Greek</hi> aſſigneth: <gap reason="foreign" resp="#OXF">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>:<note place="margin">Text. Graec.</note> and ſeemeth to impeach <hi>Abram,</hi> as he was <gap reason="foreign" resp="#OXF">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>: The <hi>Latine</hi> handeth to us: <hi>Et nolite in ſublime</hi>
+               <note place="margin">Interp. vulg.</note> 
+               <hi>tolli: and be not ye lifted on high. Arias Montanus</hi> offers, <hi>Ne ſuſpendamini ex ſublimi:</hi> that is, as it hath reference<note place="margin">Arias Mont.</note> to the <hi>Greek,</hi> if <hi>Aristotle</hi> may be the Interpreter of Scri<g ref="char:EOLhyphen"/>pture: <hi>Let not your thoughts hang in the Air like a Me<g ref="char:EOLhyphen"/>teor.</hi> The <hi>Syriack</hi> throws to us: <hi>Ne<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> diſtrahatur cogi<g ref="char:EOLhyphen"/>tatio</hi>
+               <note place="margin">Syrus Interp.</note> 
+               <hi>veſtra in iſtis: neither let your thoughts be diſtracted in theſe things.</hi> If we deſire to go down to the funda<g ref="char:EOLhyphen"/>mental ſenſe of the place: the <hi>Syriack</hi> hath given it in a moſt bountiful manner. For: <gap reason="foreign" resp="#OXF">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> cannot re<g ref="char:EOLhyphen"/>ceive the ſeal of any other ſenſe here, then as attending to the reproof of ſuch, who being ſwallowed up, and over-exerciſed with vile and <hi>inferiour cares,</hi> neglect the <hi>unum neceſſarium: the thing of which our Saviour ſayes, But one thing is needful</hi> or <hi>neceſſary.</hi> And the <hi>evidence</hi> of<note place="margin">Luk. 10. 42.</note> this <hi>expoſition</hi> ſhines, firſt, from the words immediately precedent: <hi>And ſeek not ye what ye ſhall eat, or what ye</hi>
+               <note place="margin">Luk. 12. 29.</note> 
+               <hi>ſhall drink:</hi> it adheres; <hi>neither be ye of doubtful minde.</hi> Secondly: from many places in Saint <hi>Baſil,</hi> where<note place="margin">S. Baſil in Aſce<g ref="char:EOLhyphen"/>ticis.</note> 
+               <gap reason="foreign" resp="#OXF">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, is, <hi>the diſtraction of the minde,</hi> or <hi>the avoca<g ref="char:EOLhyphen"/>tion of the heart from thoſe things, in which chiefly it ſhould be exerciſed;</hi> and where <gap reason="foreign" resp="#OXF">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, implies <hi>a freedom from inferiour and other cares, that a pious man may freely</hi> vacare &amp; videre, <hi>be at lieſure, ſee and contemplate divine and heavenly things.</hi> Thirdly: the <hi>evidence</hi> is enlight<g ref="char:EOLhyphen"/>ned from <hi>Theophylact:</hi> who, ſearching into this very Text, ſpeaks to the <hi>mark,</hi> Sine dubio <gap reason="foreign" resp="#OXF">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> nihil<note place="margin">Theophyl. in hunc locum.</note> aliud hîc eſt, quàm diſtractio, &amp; mentis inſtabilis vagatio nunc hoc, nunc illud cogitantis, &amp; ab uno ad aliud tran<g ref="char:EOLhyphen"/>ſilientis, <gap reason="foreign" resp="#OXF">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>: <hi>without doubt</hi> 
+               <gap reason="foreign" resp="#OXF">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> 
+               <hi>is nothing elſe here, but diſtraction, and the wan<g ref="char:EOLhyphen"/>dring of an unſtable minde, thinking now this, now that, and leaping from one thing to another, and alwayes phantaſtically propoſing to it ſelf more ſublime things.</hi> Therefore it looks not this our way, what <gap reason="foreign" resp="#OXF">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> are in <hi>Ariſtotle:</hi> But it is in reaſon charged upon us, to ſit reverently at the feet
+<pb n="31" facs="tcp:118098:21"/> of the <hi>Greek-Fathers,</hi> who beſt knew the Life, Soul, and Senſe of Scripture-words in their own language.</p>
+            <p>Thirdly: It is objected out of Saint <hi>Paul: For I</hi>
+               <note place="margin">Rom. 12. 3.</note> 
+               <hi>ſay through the grace given unto me, to every man that is among you, not to think of himſelf more highly then he ought to think, but to think ſoberly.</hi> The <hi>Latine</hi> affords it<note place="margin">Edit. Lat.</note> ſomewhat <hi>differently,</hi> Non plùs ſapere, quàm oportet ſapere, ſed ſapere ad ſobrietatem: <hi>not to be more wiſe, then it behoveth us, but to be wiſe to ſobriety.</hi> In the <hi>Greek</hi> it is moſt elegantly woven, or embroidered rather: <gap reason="foreign" resp="#OXF">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>:<note place="margin">Text. Graec.</note> 
+               <hi>not to be wiſe above our Sphere,</hi> or with an <hi>Aſtrolabe, but to be wiſe,</hi> as <hi>Irenaeus</hi> turns it, <hi>ad prudentiam, to pru<g ref="char:EOLhyphen"/>dence:</hi>
+               <note place="margin">
+                  <hi>Iren. lib. 5. cap. 20. S. Chryſoſt. in hunc locum.</hi> Syr. Interp. <hi>S. Aug. Ep. 47. S. Hieron. lib. 1. in Jovin.</hi>
+               </note> as Saint <hi>Chryſoſtom</hi> and the <hi>Syriack,</hi> ad mode<g ref="char:EOLhyphen"/>ſtiam, <hi>to modeſty;</hi> as Saint <hi>Auſtin,</hi> ad temperantiam, <hi>to temperance;</hi> as Saint <hi>Hierom,</hi> ad pudicitiam, <hi>to chaſtity and honeſty.</hi> This holy Text ejects all curious enquiry into Myſteries; as, into the <hi>myſtery of the ſacred Trinity, of the Incarnation of Chriſt,</hi> &amp;c. that <hi>Faith may have its perfect work;</hi> with which Faith Saint <hi>Paul</hi> dignifies the end of the Verſe: <hi>according as God hath dealt to every man the meaſure of Faith.</hi> But whereas Saint <hi>Paul</hi> had plainly taught in the qeginning of this Epiſtle: That <hi>the</hi>
+               <note place="margin">Rom. 1. 20.</note> 
+               <hi>inviſible things of God from the Creation of the world are clearly ſeen, being underſtood by the things that are made:</hi> clear it is, we may climbe up by the knowledge of all viſible <hi>Things,</hi> as the works of God proportionable to us, unto more and more knowledge of the inviſible God: who is apprehended more and more in the knowledge of his works; and in the conjunction of the effects of Things, with the Things as with their Cauſes. And our <hi>talent</hi> being encreaſed, we may not bury it; but are engaged to communicate it with all their power, that God's heavenly power may be further known upon Earth.</p>
+            <p>We finde recorded, that <hi>Aristotle</hi> aſcended ſo far, and ſo neer to the higheſt Heaven, or Heaven of Heavens; making his gradual progreſs from motion to motion,
+<pb n="32" facs="tcp:118098:22"/> that he found out him at the top of the Stairs, who is <hi>primus motor, the firſt Mover;</hi> and that he called upon him in the ſad hour of his <hi>death.</hi> Ariſtoteles moriturus<note place="margin">Weckerus de Se<g ref="char:EOLhyphen"/>cretis, lib. 15. c. 1</note> exclamabat, Ens Entium miſerere mei; &amp; ob hanc depre<g ref="char:EOLhyphen"/>cationem, eum aliqui ſalvum fore credunt. <hi>Aristotle,</hi> ſaith <hi>Weckarus, being in the ſhadow of death,</hi> I mean, <hi>in ſome neerneſs to it, cried out, O thou Thing of Things, which art a<g ref="char:EOLhyphen"/>bove all Things, have mercy on me: and for this prayer, ſome believed that he is ſaved.</hi> I wave his ſalvation: But I argue: If <hi>heatheniſh Philoſophers</hi> found out God by the <hi>heavenly Bodies,</hi> and by the <hi>gradations</hi> of their <hi>motions; Chriſtian Astrologers,</hi> having more illuminated underſtandings, may thereby diſcover more and more of the <hi>outward dif<g ref="char:EOLhyphen"/>erences</hi> and <hi>perfections of his Attributes.</hi>
+            </p>
+            <p>Fourthly: It is objected: That <hi>judicial Aſtrology</hi> re<g ref="char:EOLhyphen"/>flects a diſhonor upon God, to whom onely pertains, as one of his royal <hi>Dignities</hi> and <hi>Excellencies,</hi> cognitio futu<g ref="char:EOLhyphen"/>rorum, <hi>the knowledge of future things.</hi>
+            </p>
+            <p>Now you have done your Arrant, take your Anſwer: There are two ſorts of <hi>future things:</hi> either ſuch as de<g ref="char:EOLhyphen"/>pend upon <hi>natural</hi> &amp; <hi>neceſſary cauſes,</hi> which always work <hi>ad ultimum potentiae, to the utmoſt of their power,</hi> and have their known courſes; and theſe may be foreſeen by us in their cauſes: or ſuch as depend upon the Free-will of God or of Man, before they come to be effectually willed by him; or at length, ſuch as depend upon <hi>con<g ref="char:EOLhyphen"/>tingent cauſes,</hi> either in themſelves, or in their <hi>concur<g ref="char:EOLhyphen"/>rences</hi> with other <hi>cauſes.</hi> Theſe God alone foreſees, according to the holy Text: <hi>Shew the things that are to come hereafter, that we may know that ye are Gods.</hi> And he<note place="margin">Iſa. 41. 23.</note> onely foreſees them for two Reaſons. The firſt is: Be<g ref="char:EOLhyphen"/>cauſe <hi>future things,</hi> as I touched before, are preſent to him; and therefore, the knowledge of <hi>future things</hi> in him, is rather <hi>Cognition,</hi> then <hi>Precognition</hi> or <hi>Preſcience.</hi> The ſecond Reaſon is: Becauſe the <hi>Divine Will</hi> is the <hi>Cauſe</hi> of all <hi>Events;</hi> and God throughly knows his own <hi>Will.</hi>
+            </p>
+            <p>Hence the <hi>Divines</hi> aſſign five <hi>Actions</hi> to God, as moſt
+<pb n="33" facs="tcp:118098:22"/> proper to him, <hi>Creation, Conſervation,</hi> which is indeed a <hi>continued Creation: Salvation,</hi> and the <hi>helps in order to it,</hi> as <hi>Grace,</hi> and the <hi>Sacraments: praecognition of future things,</hi> which depend on the <hi>will</hi> or <hi>Event:</hi> and to be <gap reason="foreign" resp="#OXF">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, that is, <hi>to know the heart in the heart it ſelf,</hi> not by direction from <hi>external Signes.</hi>
+            </p>
+            <p>
+               <hi>Aſtrology</hi> therefore, doth not in any kinde, abſtract or derogate from God's <hi>Dignity</hi> or <hi>Excellency:</hi> But one<g ref="char:EOLhyphen"/>ly ſticks cloſe to this innocent Truth: That as God hath imprinted certain <hi>Signs</hi> in humane Bodies, which are <gap reason="foreign" resp="#OXF">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> Affectionum internarum, <hi>declarative of the in<g ref="char:EOLhyphen"/>ward affections;</hi> and certain <hi>Signs</hi> alſo, which are <gap reason="foreign" resp="#OXF">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> Morborum futurorum, <hi>foretelling future diſeaſes:</hi> and by theſe the learned, learnedly, <hi>harmleſly, uſefully,</hi> and <hi>piouſly judge</hi> of <hi>internal affections</hi> in their <hi>kindes,</hi> and under the condition or ſuppoſition if they be <hi>not bridled;</hi> and of diſeaſes to come if not prevented: ſo the <hi>Aſtro<g ref="char:EOLhyphen"/>logers</hi> proceed in the Heavens; having obſerved that ſuch effects are if not always <hi>concomitant</hi> with, certainly <hi>conſe<g ref="char:EOLhyphen"/>quent</hi> always to ſuch <hi>cauſes.</hi> And as the common people of <hi>Phyſitians</hi> have their <hi>critical days</hi> from the Moon, with<g ref="char:EOLhyphen"/>out much looking upwards; by which they wiſely judge, how it will ſucceed with a man in reſpect of his diſeaſe: and as they have arrived by <hi>tradition,</hi> yet with no little benefit, to the knowledge of the <hi>climacterical yeers:</hi> ſo likewiſe the <hi>Aſtrologer,</hi> making his Addreſſes neerer to the Fountain, modeſtly judges of the Fountain by the Streams, and of the Streams reciprocally by the Foun<g ref="char:EOLhyphen"/>tain.</p>
+            <p>Notwithſtanding all this: The knowledge of God doth infinitely excel, ſurmount, and tranſcend all <hi>created knowledge,</hi> be it <hi>humane</hi> or <hi>angelical.</hi> And this, in many <hi>fundamental Reſpects.</hi> As, 1. <hi>Ratione Objecti: by rea<g ref="char:EOLhyphen"/>ſon of the Object.</hi> For: God by his knowledge, knows all things paſt, preſent, and to come; yea, all things poſſible, and even himſelf as the vaſt and immenſe Ocean of all things. 2. <hi>Ratione modi &amp; perfectionis in cognoſcendo; By reaſon of the manner and
+<pb n="34" facs="tcp:118098:23"/> perfection in knowing.</hi> For, God knows all things moſt perfectly, and all manner of wayes in the which they are <hi>cognoſcible;</hi> and therefore, hath a <hi>comprehenſive know<g ref="char:EOLhyphen"/>ledge</hi> of all things. 3. <hi>Ratione medii, By reaſon of the means.</hi> For, God knows not by <hi>ſpecies,</hi> nor by <hi>effects,</hi> but ſees and knows all things by his own eſſence, as by a moſt cleer Glaſs. 4. <hi>Ratione celeritatis, by reaſon of the quickneſs.</hi> For, God knows all things, <hi>ſimul &amp; ſemel, to<g ref="char:EOLhyphen"/>gether and at once,</hi> that is, in one view or <hi>intuition</hi> of him<g ref="char:EOLhyphen"/>ſelf. 5. <hi>Ratione certitudinis, By reaſon of the certainty.</hi> For, he knows all things, even contingents (which by them<g ref="char:EOLhyphen"/>ſelves, and compared to us, are uncertain) moſt certain<g ref="char:EOLhyphen"/>ly. 6. <hi>Ratione Aeternitatis, By reaſon of eternity.</hi> For, the knowledge of God never began, nor ſhall ever end. 7. <hi>Ratione uniformitatis, By reaſon of the uniformity.</hi> Be<g ref="char:EOLhyphen"/>cauſe the knowledge of God is unvariable, and the ſame alwayes; and is neither proficient nor deficient. 8. <hi>Ra<g ref="char:EOLhyphen"/>tione ſimplicitatis &amp; unitatis, By reaſon of its ſimplicity and unity.</hi> Becauſe God underſtands himſelf and all other things, with one moſt ſimple act of his underſtanding. 9. <hi>Ratione entitatis, By reaſon of its entity.</hi> For, the know<g ref="char:EOLhyphen"/>ledge is not accidentary, as the knowledge of Angels and of Men; but is ſubſtantial to God, and even God himſelf. 10. <hi>Ratione cauſalitatis, By reaſon of its cauſality.</hi> Becauſe the knowledge of God, is the idea and cauſe of all things that are made. Laſtly, <hi>Ratione foecunditatis &amp; communicationis, By reaſon of its fecundity and communica<g ref="char:EOLhyphen"/>tion.</hi> Becauſe the wiſdom and knowledge of God, as the greateſt of Lights, and as a Light exceeding all Lights aſſembled into one Light; diffuſeth it ſelf to Angels, Men, and all ſenſitive Creatures; and makes all things that know and are known, to be known and to know.</p>
+            <p>Fifthly: It is objected: That the Stars are a long way exalted above us; and that therefore we know but few things concerning them; and the knowledge even of thoſe things is uncertain. <hi>I anſwer,</hi> Scientia eſt univer<g ref="char:EOLhyphen"/>ſalium, non ſingularium; quippè quae ſunt infinita: <hi>Arts and Sciences are of univerſals and generals, not of ſingulars
+<pb n="35" facs="tcp:118098:23"/> or particulars, theſe being infinite.</hi> Moreover: <hi>Sciences</hi> are perfected more and more every day. Yea, in Divinity it ſelf, thoſe Doctrines are matters of Faith in the eſti<g ref="char:EOLhyphen"/>mation of ſome, which to others are matters of Opini<g ref="char:EOLhyphen"/>on, and onely probable; and to a third ſort, pernicious falſhoods: yet the ſolid and ſuccous body of Divinity, ſtill grows more and more torous and quadrangular. E<g ref="char:EOLhyphen"/>ven ſo in <hi>Aſtrology;</hi> ſome will have, that the tops of our Mountains are fairly repreſented in the <hi>Globe of the Moon,</hi> as in a Glaſs: others, that there are Mountains, and Seas, and even another world in the Moon. But all this while <hi>Aſtrology</hi> ſtill gathers up it ſelf, as other Arts and Sci<g ref="char:EOLhyphen"/>ences, higher and higher, and yet higher. For now the <hi>Aſtrologers</hi> have plainly diſcovered many things above ordinary, which were unknown to <hi>Ariſtotle,</hi> and the learned Ancients: As, that the <hi>Planets, Venus</hi> and <hi>Mer<g ref="char:EOLhyphen"/>cury</hi> move about the <hi>Sun;</hi> and are now above the <hi>Sun,</hi> now under it; that <hi>Venus</hi> doth encreaſe, and hath horns as the <hi>Moon:</hi> that the <hi>Sun</hi> and <hi>Moon</hi> have ſpots, which encreaſe, move, and are divided; and now appear, now vaniſh: that ſome <hi>Comets</hi> have their abode above the <hi>Moon:</hi> that the <hi>Phaenomena</hi> which appear, are not Stars; becauſe they riſe without our knowledge, and having ſa<g ref="char:EOLhyphen"/>luted us, diſappear: <hi>&amp;c.</hi>
+            </p>
+            <p>And if in <hi>Aſtrology,</hi> many things cannot be penetrated to the heart and marrow; in the like place and condition is <hi>Philoſophy.</hi> Who can fetch from the deep, the reaſon why Ecnephias catches up houſes and ſhips, and having played a little with them in the Air, careleſsly throws them to the Earth or Sea again? Why the Whirl-winde goes round, and violently carries other things with it? Why the Windes blow, now here, now there? Why the Load-ſtone, though divided into parts, turns one ſide to one Pole, the other to the other? Why thoſe things act ſo and ſo? for the which we reſerve no other Anſwer, but <hi>occulta qualitas, they act by a hidden quality.</hi> If we re<g ref="char:EOLhyphen"/>move the Court to Divinity, and except the Myſteries: certain other things will not eaſily be underſtood. O<g ref="char:EOLhyphen"/>riginal
+<pb n="36" facs="tcp:118098:24"/> Sin; and how the ſin which <hi>Adam</hi> committed, is tranſmitted to his poſterity, and made perſonal and pro<g ref="char:EOLhyphen"/>per in every one of them, is not perfectly conceivable: how <hi>grace</hi> concurs with the <hi>will,</hi> and how each hath its proper force concurring to the ſame act, which is both gracious and free, and yet neither is impeached; is not altogether ſo liable to humane capacity. Theſe <hi>Sciences are like unto treaſure hid in a field.</hi> They ſharpen de<g ref="char:EOLhyphen"/>ſire,<note place="margin">Mat. 13. 44.</note> and heat induſtry.</p>
+            <p>Sixthly: It is objected: That in <hi>Aſtrology</hi> there are ma<g ref="char:EOLhyphen"/>ny fooliſh, frivolous, and impertinent matters. I anſwer, So in <hi>Divinity</hi> there are, <hi>queſtiones inutiles, unprofitable que<g ref="char:EOLhyphen"/>ſtions:</hi> of the which, the <hi>Angelical Doctor</hi> complains;<note place="margin">D. Tho. in Prolo<g ref="char:EOLhyphen"/>go ad ſummum Theologicam.</note> and whilſt he complains of others, ſuch Queſtions him<g ref="char:EOLhyphen"/>ſelf adopts; eſpecially, <hi>in materiâ de Angelis, amongſt his Queſtions concerning the Angels;</hi> and excites others to complain of him. And put the caſe, the <hi>Aſtrologer</hi> juſtles and copes often with ſuch trivials in his ſtudies; The wiſe-man will diſ-impeach him: who boldly ſaith: <hi>And I gave my heart to know wiſdom, and to know madneſs and</hi>
+               <note place="margin">Eccleſ. 1. 17.</note> 
+               <hi>folly.</hi> For, as Saint <hi>Hierom</hi> expatiates upon the <hi>place:</hi> Con<g ref="char:EOLhyphen"/>traria contrariis intelliguntur; aequaliſ<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> ſtudii fuit Solo<g ref="char:EOLhyphen"/>moni,<note place="margin">S. Hierom. in hunc locum.</note> ſcire prudentiam &amp; ſtultitiam. Quare? Ut in aliis appetendis, &amp; aliis declinandis, vera ejus ſapientia pro<g ref="char:EOLhyphen"/>baretur. <hi>Contraries are underſtood by contraries; and it was of equal ſtudy to Solomon, to know prudence and fooliſhneſs. Wherefore? That in his deſiring of ſome things, and his de<g ref="char:EOLhyphen"/>clining of others, his true wiſdom, as going wiſely betwixt the extreams, might appear true being proved.</hi> Now if any man adhere to theſe errours, follies, and impertinencies, procreated and proſeminated by <hi>Aſtrologers,</hi> engendred of the <hi>corruption of Cham,</hi> and walking to the left-hand: he ſhall not be <hi>Barcoshebas, the Son of a Star;</hi> but <hi>Car<g ref="char:EOLhyphen"/>chasba, the Son of a lye:</hi> and howſoever he may move, as other men a while; yet <hi>motus trepidationis, the motion of trembling</hi> will have a terrible influence upon him at laſt; and he will be utterly deprived of the benign and bleſ<g ref="char:EOLhyphen"/>ſed-making Aſpect of God.</p>
+            <pb n="37" facs="tcp:118098:24"/>
+            <p>
+               <hi>Aſtrology</hi> being thus conſidered, and reſtrained within its Channel; is <hi>harmleſs, uſeful,</hi> and <hi>pious:</hi> and ſweetly reſounds to the End of the lights, appointed for <hi>ſigns and ſeaſons.</hi> If any man oppoſe it in its own ſtation, he may perhaps as the <hi>divine Areopagite</hi> ſpeaks, <gap reason="foreign" resp="#OXF">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>,<note place="margin">S. Dionyſ. Areop. de divin. nom. cap. 8.</note> 
+               <hi>cudgel the Air and the ſhadows valiantly, and like a man.</hi> But he will never get the field, or prevail farther then againſt himſelf. He may quickly ſhew that he has <hi>ridicu<g ref="char:EOLhyphen"/>lum caput, at<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> os patulum ſparſum<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan>; a ridiculous head, and an open and wide mouth:</hi> but he will not be able to evince, that he has a large heart, and a knowing ſoul.</p>
+            <p>And now, ye learned <hi>Children of Seth;</hi> as your <hi>Aſtro<g ref="char:EOLhyphen"/>logy</hi> is an <hi>Art,</hi> let us deſcend to a concluſion by the pri<g ref="char:EOLhyphen"/>vate and clean path of <hi>uſe</hi> and <hi>fruit.</hi> Ye have heard here of God as the pinacle of all things: look ye up to him by Faith, as Saint <hi>Stephen</hi> looked on him by a kinde of <hi>viſion;</hi> of whom it is written: <hi>He being full of the holy</hi>
+               <note place="margin">Acts 7. 55.</note> 
+               <hi>Ghoſt, looked up ſtedfaſtly into heaven, and ſaw the glory of God, and Jeſus ſtanding on the right-hand of God.</hi> He <hi>looked above</hi> your Heavens, <hi>into Heaven,</hi> and <hi>there ſaw the glory of God, and Jeſus</hi> Chriſt, the Bridegroom of Souls on his <hi>right-hand.</hi> This teaches you, that you muſt refer all your actions to <hi>the glory of God;</hi> and that the Chriſtian Soul muſt be adorned as the <hi>Spouſe of Chriſt. Chriſt,</hi> as the <hi>Bridegroom,</hi> ſpeaks to the Soul which is the <hi>Spouſe: Thou</hi>
+               <note place="margin">Cant. 4. 9.</note> 
+               <hi>haſt raviſhed my heart, my ſiſter, my ſpouſe: thou haſt raviſhed my heart, with one of thine eyes, with one chain of thy neck.</hi> The <hi>Latine</hi> applieth: <hi>Vulnerâſti cor meum ſoror mea ſponſa;</hi>
+               <note place="margin">Edit. Lat.</note> 
+               <hi>vulnerâſti cor meum in uno oculorum tuorum, &amp; in uno crine colli tui. Thou haſt wounded my heart, O thou which art both my ſiſter and ſpouſe; thou hast wounded my heart in one of thine eyes, and in one hair of thy neck.</hi> The <hi>eye</hi> is the moſt excellent and moſt curious part of mans body; and the <hi>hair</hi> being excrementitious, is of little worth. Wound ye the <hi>heart</hi> of Chriſt day and night, with your excellent works, and with your common and ordinary works, that is, with all your works. Likewiſe: ye contemplate the <hi>lights of heaven,</hi> as the <hi>eyes</hi> of the world, and your tem<g ref="char:EOLhyphen"/>poral
+<pb n="38" facs="tcp:118098:25"/> affairs, re-cal you to the conſideration of earthly Things, being <hi>excrementitious</hi> and <hi>corruptible. Glorifie</hi> God, and <hi>wound</hi> Chriſt with the <hi>wounds of love,</hi> in the pious uſe of them and theſe.</p>
+            <p>Secondly, ye have heard here of <hi>Grace,</hi> and of the ſu<g ref="char:EOLhyphen"/>pernatural and overcommanding <hi>power</hi> of it. I commend to you the <hi>worth of Grace,</hi> and the <hi>work of Grace;</hi> that being enamour'd on it, ye may pray for it. The <hi>worth of Grace,</hi> as worthily delineated by <hi>Thomas</hi> of <hi>Aquine;</hi> who diſputing of the difference betwixt the <hi>juſtification of a ſinner,</hi> and the <hi>creation of the world,</hi> in the <hi>worth of the act,</hi> ſaith: <hi>Bonum gratiae unius majus eſt, quàm bonum Naturae</hi>
+               <note place="margin">S. Tho. 1. 2. q. 113. art. 9. ad. 2</note> 
+               <hi>totius univerſi: One degree of grace is of more worth, then the goods of Nature pertaining to the whole Univerſe.</hi> The <hi>work of grace,</hi> is the Reaſon of the <hi>worth</hi> of it: Becauſe it conjoyns us <hi>with God:</hi> who governs the <hi>Stars,</hi> their Influences and effects: yea, makes us, as it were, <hi>Gods,</hi> and, to ſpeak in the language of <hi>Anaſtaſius Synaita, Pa<g ref="char:EOLhyphen"/>triarch of Antioch:</hi> Quodammodò Chriſtos in divinitate<note place="margin">
+                  <hi>S. Anaſtaſ. Sy<g ref="char:EOLhyphen"/>nait. lib. 7. Hex<g ref="char:EOLhyphen"/>am.</hi> Eccleſ. 17. 18.</note> ſimul &amp; humanitate: <hi>in a manner Chriſts, as having both di<g ref="char:EOLhyphen"/>vinity and humanity.</hi> Hence the wiſe-man compares <hi>grace</hi> with the <hi>pupil of the eye:</hi> Becauſe as the <hi>pupil</hi> receives the <hi>image of a man,</hi> and therefore it is called in the <hi>Hebrew,</hi> Iſcon, <hi>a little man;</hi> ſo in <hi>grace</hi> there is the <hi>image of God;</hi> it being our higheſt <hi>participation of the Divinity</hi> in this world; and we being called by Saint <hi>Peter, partakers of</hi>
+               <note place="margin">2 Pet. 1. 4.</note> 
+               <hi>the divine Nature.</hi>
+            </p>
+            <p>Thirdly: Ye have heard here of the Angels. Learn, I pray: Angels in holy Scripture, are alwayes repreſented to us, <gap reason="foreign" resp="#OXF">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, ſtantes, <hi>ſtanding.</hi> Whereſoever divine Scri<g ref="char:EOLhyphen"/>pture preſents them, we finde them neither in a poſture of ſitting, nor of lying or leaning, but of ſtanding. It is the wiſe obſervation of <hi>Cyrillus Alexandrinus.</hi> And his<note place="margin">Cyril. Alex. in cap. 1. Zachar.</note> Reaſon will not be diſ-obliged from his Obſervation. <hi>They ſtand,</hi> ſaith he, <hi>to divulge and evidence their promptneſs, readineſs and erected minde, to bring all the commands of God to execution.</hi> Stand ye therefore alwayes ready to execute<note place="margin">
+                  <hi>Ecc</hi> Eccleſ. 6. 14</note> the moſt royal and holy commands of God, not the moſt
+<pb n="39" facs="tcp:118098:25"/> vile and execrable commands of the Devil: that <hi>Gods will</hi> may <hi>be done</hi> by you <hi>in earth, as it is in heaven.</hi>
+            </p>
+            <p>Fourthly: ye have heard here of the <hi>Devil. Gaudentius Brixienſis</hi> expreſſeth of <hi>him:</hi> Poſt adventum Chriſti, du<g ref="char:EOLhyphen"/>plicato<note place="margin">Gaud. Brix ſerm. 19.</note> contra hominum genus furore ſuccenditur: <hi>after the coming of Chriſt, he is fired with a double fury against humane kinde.</hi> Saint <hi>Epiphanius</hi> teaches, <hi>That the devil is</hi>
+               <note place="margin">S. Epiph. lib. 1. in Ephit.</note> 
+               <hi>called in Scripture by the name of a Serpent; becauſe the Ser<g ref="char:EOLhyphen"/>pent is</hi> omnium animantium <gap reason="foreign" resp="#OXF">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>the moſt winding and turning of all living creatures; and that he windes him<g ref="char:EOLhyphen"/>ſelf into circles and knots, and hath nothing of right, ſtraight, or innocent candor.</hi> He is called by <hi>Theodoret,</hi> 
+               <gap reason="foreign" resp="#OXF">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>,<note place="margin">
+                  <hi>Theodoret. lib. 1. Hiſt. cap.</hi> 2. Mat. 13. 19. <hi>S. Greg. Thaum. Orat. 2. de an<g ref="char:EOLhyphen"/>nunc.</hi> S. <hi>Baſil. hom. quòd Deus non ſit Auctor mali.</hi> S. <hi>Tho. p. 1. q. 63 art. 9. ad 3.</hi>
+               </note> 
+               <hi>altogether wicked;</hi> and in the Goſpel, <gap reason="foreign" resp="#OXF">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>the wicked one. Gregorius Thaumaturgus</hi> calls him, <gap reason="foreign" resp="#OXF">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>the Prince of evil ones.</hi> Saint <hi>Baſil</hi> ſtiles him, <gap reason="foreign" resp="#OXF">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>the Re<g ref="char:EOLhyphen"/>ceptacle or promptuary of all malice. Aquinas</hi> ſets a reſplen<g ref="char:EOLhyphen"/>dent and ſingular obſervation, as in a <hi>Ring:</hi> In ſacrâ Scri<g ref="char:EOLhyphen"/>pturâ nomina quorundam ordinum ut Seraphim &amp; Thro<g ref="char:EOLhyphen"/>norum, Daemonibus non attribuuntur: quia haec nomina ſumuntur ab ardore charitatis, &amp; ab inhabitatione Dei, quae non poſſunt eſſe cum peccato mortali. Attribuuntur autem eis nomina Cherubim, poteſtatum, &amp; principa<g ref="char:EOLhyphen"/>tuum: quia haec nomina ſumuntur à Scientiâ &amp; Potentiâ quae bonis maliſque poſſunt eſſe communia. <hi>In holy Scri<g ref="char:EOLhyphen"/>pture the Names of certain Orders of Angels, as of the Se<g ref="char:EOLhyphen"/>raphim and Thrones, are not attributed to the devils; becauſe theſe names are taken from the ardor of charity,</hi> (as the name of the <hi>Seraphim) and from the inhabitation of God,</hi> (as the name of the Thrones) <hi>which things cannot ſtand with mor<g ref="char:EOLhyphen"/>tal ſin. But the names of the Cherubim, Powers and Princi<g ref="char:EOLhyphen"/>palities, are in holy Scripture, attributed to the Devils; be<g ref="char:EOLhyphen"/>cauſe theſe Names are taken form knowledge and power, which may be common both to good and bad.</hi> Beware, I moſt humbly beſeech you in <hi>the Name of our Lord Jeſus Chriſt,</hi> of him that is now doubly fired againſt us, that is moſt winding and inſinuating, of him that is all-wicked, and the Prince of <hi>miſchief:</hi> yea, the unexhauſted promptuary of <hi>all wickedneſs:</hi> of him that hath much of power, of
+<pb n="40" facs="tcp:118098:26"/> Principality, and all this without Piety, without Charity: of him, that is <gap reason="foreign" resp="#OXF">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>the deſtroyer,</hi> that wooes and<note place="margin">Rev. 9. 11.</note> courts us to deſtroy us. <hi>Be ſober, be vigilant, becauſe your</hi>
+               <note place="margin">1 Pet. 5. 8.</note> 
+               <hi>adverſary the devil, as a roaring lion walketh about, ſeeking whom he may devour.</hi>
+            </p>
+            <p>Fifthly: ye have ſeen the <hi>Lights of Heaven</hi> once more in this Diſcourſe. And ye your ſelves muſt be <hi>lights</hi> from Heaven. And therefore, <hi>let your light ſo ſhine before men,</hi>
+               <note place="margin">Mat. 5. 16.</note> 
+               <hi>that they may ſee your good works, and glorifie your Father which is in heaven.</hi> The Lamps in Sepulchres gave light to the dead, and to their dry bones and duſt. It is your duty, to give light unto the living, and to reaſonable Creatures; and therefore, your light muſt be kindled from him that is <hi>Lux mundi, the Light of the world.</hi> So Chriſt ſaith of himſelf, <hi>I am the light of the world.</hi>
+               <note place="margin">John 8. 12.</note>
+            </p>
+            <p>Laſtly, The Motions of the heavenly Bodies, have now been acted again in your underſtandings. I ſhall onely in this reſpect, nakedly propoſe to you the ſublime exam<g ref="char:EOLhyphen"/>ple of <hi>Laurentius Justinianus:</hi> concerning whom <hi>Ber<g ref="char:EOLhyphen"/>nardus</hi>
+               <note place="margin">Bernard in vitâ Laurent. Juſtin. cap. 7.</note> 
+               <hi>writes:</hi> Erat Verborum Actionúmque tanta men<g ref="char:EOLhyphen"/>ſura, ut ſi inferiora haec Coeleſtibus conferri fas eſt, vix ego motus Caelorum, &amp; revolutiones &amp; gyros agi majori ordine at que menſurâ crediderim. <hi>There was ſuch a mea<g ref="char:EOLhyphen"/>ſure of his words and actions, that if it be lawful to compare theſe inferiour things, with things heavenly; I ſcarce think that the motions of the heavenly bodies, are performed with more order and meaſure.</hi> Here is your <hi>ultimate work:</hi> here the chief <hi>Praxis</hi> of your <hi>Vocation.</hi> To this I com<g ref="char:EOLhyphen"/>med you, and this I commend to you, <hi>in viſceribus Jeſu Christi, in the bowels of JESUS-CHRIST.</hi>
+            </p>
+            <epigraph>
+               <q>
+                  <bibl>Iſa. 42. 8.</bibl> My Glory will I not give to another.</q>
+            </epigraph>
+            <closer>Soli Deo, Dei Gloria.</closer>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
